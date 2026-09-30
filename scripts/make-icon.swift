@@ -1,4 +1,4 @@
-// Draws the app icon (the site's open-book mark on the header's charcoal) and writes
+// Draws the app icon (the site's open-book mark, centred on the header's charcoal) and writes
 // Resources/AppIcon.icns.   Run: swift scripts/make-icon.swift
 import AppKit
 
@@ -33,13 +33,10 @@ func draw(size px: Int) -> Data {
     ctx.saveGState()
     shape.addClip()
     NSGradient(starting: color(0x6E6562), ending: color(0x4A4341))!.draw(in: body, angle: -90)
-    // the header's taupe underline, as a band near the bottom
-    color(0xAB978C).setFill()
-    NSBezierPath(rect: CGRect(x: 100, y: 214, width: 824, height: 22)).fill()
     ctx.restoreGState()
 
     // the favicon's book, from its 32-unit SVG path (y flipped for Core Graphics)
-    let s: CGFloat = 24, ox: CGFloat = 512 - 16 * s, oy: CGFloat = 572 + 15.75 * s
+    let s: CGFloat = 24, ox: CGFloat = 512 - 16 * s, oy: CGFloat = 512 + 15.8 * s  // book centred
     func p(_ x: CGFloat, _ y: CGFloat) -> CGPoint { CGPoint(x: ox + x * s, y: oy - y * s) }
     let book = NSBezierPath()
     book.move(to: p(16, 9))
