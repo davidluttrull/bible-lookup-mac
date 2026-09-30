@@ -3,6 +3,37 @@
 The Bible Lookup site as a Mac app. Type a reference (`John 3:16`, `jn 3:16-18`,
 `Ps 23`, `James 1:5; John 3:16-18`), pick a translation, and press Return.
 
+## Why I made this
+
+I've used Bible Gateway for as long as I can remember. For looking up a Scripture
+reference, it's still the easiest, fastest tool I know. I love Logos, and sites
+like Bible.com are fine, but most of the time I just want a simple window with
+the text of Scripture in it. Bible Gateway has always had ads, and they've kept
+getting worse and more invasive.
+
+So I worked with Claude to build a super simple app: I type a reference, and it
+gives me the Bible. I'm very pleased with the results, and I'll be saying goodbye
+to Bible Gateway.
+
+## Features
+
+- A super simple interface.
+- Fast passage lookup, including several passages at once
+  (`John 3:16; John 8:3`).
+- **Read full chapter** for any single verse, with your verse highlighted. This
+  was a favorite Bible Gateway feature of mine.
+- **Open in Logos** links, for when you want to dig into a passage in Logos Bible
+  Software (and to keep Kirk E. Miller happy).
+- The most common English translations: KJV, ASV, NET, NLT, ESV, NIV, CSB and
+  NASB.
+
+ESV, NIV, CSB and NASB need API keys. They're free (getting mine took about ten
+minutes), and you paste them into the app's Settings. The free keys limit how
+many passages you can look up each month, but for one person that should be
+plenty.
+
+## How it works
+
 It is written in Swift and needs nothing else installed. The page you see is the
 same HTML, CSS and JavaScript as the website. Swift code answers the page's
 `/api` requests inside the app, so the app runs no web server and opens no
