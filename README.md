@@ -10,10 +10,15 @@ network port.
 
 ## Installing
 
-Download `Bible Lookup 1.0.dmg` from the
+Download the `.dmg` from the
 [Releases page](https://github.com/davidluttrull/bible-lookup-mac/releases), open it,
 and drag **Bible Lookup** to **Applications**. It needs macOS 13 or later and runs on
 Apple silicon and Intel Macs.
+
+From version 1.1 on, the app keeps itself up to date. It checks once a day, and
+when there's a new version it offers to install it and restart. You can also
+choose **Bible Lookup → Check for Updates…**, or turn automatic checks off in
+Settings.
 
 KJV and ASV are built in and work offline. NET and NLT work as soon as you are
 online. For the rest, open **Bible Lookup → Settings** (⌘,):
@@ -47,7 +52,7 @@ scripts/build.sh
 
 The script runs the tests, builds for Apple silicon and Intel, signs the app
 with the keychain's **Developer ID Application** certificate, and writes
-`dist/Bible Lookup.app` and `dist/Bible Lookup 1.0.dmg`.
+`dist/Bible Lookup.app` and `dist/BibleLookup-<version>.dmg`.
 
 To notarize (so other Macs open it without a warning), give it the notarytool
 keychain profile saved on this Mac (named `BibleLookup`):
@@ -56,8 +61,34 @@ keychain profile saved on this Mac (named `BibleLookup`):
 NOTARY_PROFILE=BibleLookup scripts/build.sh
 ```
 
-Set `VERSION=1.1 BUILD=2` for a new release. The bundle ID is
-`org.indianachristianacademy.BibleLookup`; change it with `BUNDLE_ID=...`.
+The bundle ID is `org.indianachristianacademy.BibleLookup`; change it with
+`BUNDLE_ID=...`.
+
+## Publishing a new version
+
+```
+VERSION=1.2 BUILD=15 scripts/release.sh notes.md
+```
+
+This builds, signs and notarizes the new version, then creates the GitHub
+release with the installer and `appcast.xml`, the update list that installed
+copies check. `BUILD` has to be a whole number higher than the last release's,
+because that's what the app compares; the script stops if it isn't. `notes.md`
+is optional: a few lines, with `- ` for bullet points. It shows up in the
+update window and on the release page. Commit your changes first; the script
+pushes them.
+
+Updates use [Sparkle](https://sparkle-project.org). Each update is signed with a
+private key kept in this Mac's keychain, and the app only installs updates
+signed with it. **Back the key up**, because without it, installed copies can't
+be updated. Export it:
+
+```
+~/Library/Caches/BibleLookupBuild/artifacts/sparkle/Sparkle/bin/generate_keys -x ~/Desktop/sparkle-key.txt
+```
+
+Save that file somewhere safe, like a password manager, then delete it from the
+Desktop. On another Mac, bring it back with `generate_keys -f sparkle-key.txt`.
 
 ## How it's put together
 

@@ -14,7 +14,8 @@
 #
 # Optional settings:
 #   SIGN_IDENTITY   another signing identity ("-" = ad hoc, for testing on this Mac only)
-#   VERSION, BUILD  version shown in Finder (default 1.0, 1)
+#   VERSION, BUILD  version shown in Finder (default 1.0, 1). BUILD must go up with every
+#                   release: Sparkle offers an update when the release's BUILD is higher.
 #   BUNDLE_ID       default org.indianachristianacademy.BibleLookup
 #   SKIP_TESTS=1    don't run the test suite first
 set -euo pipefail
@@ -26,7 +27,7 @@ VERSION=${VERSION:-1.0}
 BUILD=${BUILD:-1}
 DIST=$ROOT/dist
 APP="$DIST/Bible Lookup.app"
-DMG="$DIST/Bible Lookup $VERSION.dmg"
+DMG="$DIST/BibleLookup-$VERSION.dmg"  # no spaces: it's also the file updates download
 # SwiftPM's build folder lives outside Documents: iCloud syncing upsets its database
 SCRATCH=${SCRATCH:-$HOME/Library/Caches/BibleLookupBuild}
 
@@ -48,11 +49,17 @@ step "Building (Apple silicon + Intel)"
 BUILD_ARGS=(-c release --arch arm64 --arch x86_64 --scratch-path "$SCRATCH" --product BibleLookup)
 swift build "${BUILD_ARGS[@]}"
 BIN="$(swift build "${BUILD_ARGS[@]}" --show-bin-path)/BibleLookup"
+SPARKLE="$SCRATCH/artifacts/sparkle/Sparkle/Sparkle.xcframework/macos-arm64_x86_64/Sparkle.framework"
 
 step "Assembling $APP"
 rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp "$BIN" "$APP/Contents/MacOS/BibleLookup"
+# Sparkle (automatic updates) goes in Contents/Frameworks, where the app looks for it
+mkdir -p "$APP/Contents/Frameworks"
+ditto "$SPARKLE" "$APP/Contents/Frameworks/Sparkle.framework"
+otool -l "$APP/Contents/MacOS/BibleLookup" | grep -q "@executable_path/../Frameworks" ||
+  install_name_tool -add_rpath "@executable_path/../Frameworks" "$APP/Contents/MacOS/BibleLookup"
 sed -e "s/\$(BUNDLE_ID)/$BUNDLE_ID/" -e "s/\$(VERSION)/$VERSION/" -e "s/\$(BUILD)/$BUILD/" \
   Packaging/Info.plist > "$APP/Contents/Info.plist"
 printf 'APPL????' > "$APP/Contents/PkgInfo"
@@ -76,7 +83,17 @@ ADHOC=0
 step "Signing with: $SIGN_IDENTITY"
 SIGN=(codesign --force --sign "$SIGN_IDENTITY" --options runtime)
 [ $ADHOC -eq 0 ] && SIGN+=(--timestamp)
-"${SIGN[@]}" --entitlements Packaging/BibleLookup.entitlements "$APP"
+# Sparkle's helpers first, inside out, then the app (never --deep: it breaks the sandbox)
+FW="$APP/Contents/Frameworks/Sparkle.framework/Versions/B"
+"${SIGN[@]}" "$FW/XPCServices/Installer.xpc"
+"${SIGN[@]}" --preserve-metadata=entitlements "$FW/XPCServices/Downloader.xpc"
+"${SIGN[@]}" "$FW/Autoupdate"
+"${SIGN[@]}" "$FW/Updater.app"
+"${SIGN[@]}" "$APP/Contents/Frameworks/Sparkle.framework"
+ENTITLEMENTS=$(mktemp)
+sed "s/\$(BUNDLE_ID)/$BUNDLE_ID/g" Packaging/BibleLookup.entitlements > "$ENTITLEMENTS"
+"${SIGN[@]}" --entitlements "$ENTITLEMENTS" "$APP"
+rm -f "$ENTITLEMENTS"
 codesign --verify --strict --verbose=1 "$APP"
 
 notarize() {

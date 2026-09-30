@@ -4,6 +4,7 @@ import SwiftUI
 struct BibleLookupApp: App {
     init() {
         _ = AppModel.shared  // start loading the bundled Bibles right away
+        _ = Updates.shared   // and start the update checker
     }
 
     var body: some Scene {
@@ -71,6 +72,9 @@ private struct AppCommands: Commands {
     @FocusedValue(\.webController) private var page
 
     var body: some Commands {
+        CommandGroup(after: .appInfo) {
+            CheckForUpdatesButton()
+        }
         CommandGroup(replacing: .printItem) {
             Button("Print…") { page?.printPage() }
                 .keyboardShortcut("p")

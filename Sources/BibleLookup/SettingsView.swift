@@ -59,6 +59,12 @@ struct SettingsView: View {
             }
 
             Section {
+                UpdateSettings()
+            } header: {
+                Text("Updates")
+            }
+
+            Section {
                 Toggle("Show keys", isOn: $showKeys)
                 HStack {
                     if let status = status {

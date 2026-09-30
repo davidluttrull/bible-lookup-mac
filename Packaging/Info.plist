@@ -30,6 +30,16 @@
 	<true/>
 	<key>NSSupportsAutomaticTermination</key>
 	<false/>
+	<!-- Sparkle automatic updates: the update list lives on the latest GitHub release -->
+	<key>SUFeedURL</key>
+	<string>https://github.com/davidluttrull/bible-lookup-mac/releases/latest/download/appcast.xml</string>
+	<!-- updates must be signed with the matching private key (in the release Mac's keychain) -->
+	<key>SUPublicEDKey</key>
+	<string>mJeX0Gn4WcfqlCVefVm1T0XRMnMsN1dttTx0gnpBebo=</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
 	<key>NSHumanReadableCopyright</key>
 	<string>Bible texts © their publishers; KJV and ASV are public domain.</string>
 </dict>

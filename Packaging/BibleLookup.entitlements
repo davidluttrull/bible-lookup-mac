@@ -2,12 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<!-- App Sandbox: the app can only reach the internet (to fetch Bible text) and print -->
+	<!-- App Sandbox: the app can only reach the internet (Bible text, updates) and print -->
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
 	<key>com.apple.security.network.client</key>
 	<true/>
 	<key>com.apple.security.print</key>
 	<true/>
+	<!-- lets Sparkle's installer (outside the sandbox) talk to the app; scripts/build.sh fills in the bundle ID -->
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>$(BUNDLE_ID)-spks</string>
+		<string>$(BUNDLE_ID)-spki</string>
+	</array>
 </dict>
 </plist>
