@@ -23,7 +23,7 @@ to Bible Gateway.
 - **Read full chapter** for any single verse, with your verse highlighted. This
   was a favorite Bible Gateway feature of mine.
 - **Open in Logos** links, for when you want to dig into a passage in Logos Bible
-  Software (and to keep Kirk E. Miller happy).
+  Software.
 - The most common English translations: KJV, ASV, NET, NLT, ESV, NIV, CSB and
   NASB.
 
