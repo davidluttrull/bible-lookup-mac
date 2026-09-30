@@ -172,10 +172,17 @@ function initHeader() {
   });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "/" && !/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) {
+    if (/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
+    if (e.key === "/") {
       e.preventDefault();
       $("#q").focus();
       $("#q").select();
+    } else if ((e.key === "ArrowLeft" || e.key === "ArrowRight") && !(e.metaKey || e.ctrlKey || e.altKey || e.shiftKey)) {
+      // ← and → go to the previous and next chapter (on a chapter page)
+      if ($(".pop")) return;
+      const arrow = e.key === "ArrowLeft" ? "←" : "→";
+      const link = [...document.querySelectorAll(".chapnav a")].find((a) => a.textContent.includes(arrow));
+      if (link) { e.preventDefault(); link.click(); }
     }
   });
 }

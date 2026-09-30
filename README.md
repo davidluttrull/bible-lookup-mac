@@ -29,9 +29,8 @@ who installs it uses their own.
 
 ## Using it
 
-- **⌘L** jumps to the search box (so does `/`).
-- **⌘[** and **⌘]** go back and forward. **⌥⌘←** and **⌥⌘→** go to the previous
-  and next chapter.
+- **⌘S** jumps to the search box (so does `/`).
+- **←** and **→** go to the previous and next chapter.
 - **⌘+**, **⌘−** and **⌘0** change the text size.
 - **⌘P** prints the passage without the header and links.
 - **⌘N** opens another window.

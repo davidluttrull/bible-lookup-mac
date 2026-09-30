@@ -90,19 +90,16 @@ private struct AppCommands: Commands {
         }
         CommandMenu("Go") {
             Button("Look Up a Passage") { page?.focusSearch() }
-                .keyboardShortcut("l")
+                .keyboardShortcut("s")
             Button("Home") { page?.goHome() }
                 .keyboardShortcut("h", modifiers: [.command, .shift])
             Divider()
             Button("Back") { page?.goBack() }
-                .keyboardShortcut("[")
             Button("Forward") { page?.goForward() }
-                .keyboardShortcut("]")
             Divider()
-            Button("Previous Chapter") { page?.chapter(next: false) }
-                .keyboardShortcut(.leftArrow, modifiers: [.command, .option])
-            Button("Next Chapter") { page?.chapter(next: true) }
-                .keyboardShortcut(.rightArrow, modifiers: [.command, .option])
+            // plain ← and → also do these (app.js), except while typing in the search box
+            Button("Previous Chapter  ←") { page?.chapter(next: false) }
+            Button("Next Chapter  →") { page?.chapter(next: true) }
         }
         CommandGroup(replacing: .help) {
             Link("Get a Free ESV API Key", destination: URL(string: "https://api.esv.org/account/create-application/")!)
