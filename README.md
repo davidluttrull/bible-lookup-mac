@@ -64,32 +64,6 @@ NOTARY_PROFILE=BibleLookup scripts/build.sh
 The bundle ID is `org.indianachristianacademy.BibleLookup`; change it with
 `BUNDLE_ID=...`.
 
-## Publishing a new version
-
-```
-VERSION=1.2 BUILD=15 scripts/release.sh notes.md
-```
-
-This builds, signs and notarizes the new version, then creates the GitHub
-release with the installer and `appcast.xml`, the update list that installed
-copies check. `BUILD` has to be a whole number higher than the last release's,
-because that's what the app compares; the script stops if it isn't. `notes.md`
-is optional: a few lines, with `- ` for bullet points. It shows up in the
-update window and on the release page. Commit your changes first; the script
-pushes them.
-
-Updates use [Sparkle](https://sparkle-project.org). Each update is signed with a
-private key kept in this Mac's keychain, and the app only installs updates
-signed with it. **Back the key up**, because without it, installed copies can't
-be updated. Export it:
-
-```
-~/Library/Caches/BibleLookupBuild/artifacts/sparkle/Sparkle/bin/generate_keys -x ~/Desktop/sparkle-key.txt
-```
-
-Save that file somewhere safe, like a password manager, then delete it from the
-Desktop. On another Mac, bring it back with `generate_keys -f sparkle-key.txt`.
-
 ## How it's put together
 
 - `Sources/BibleLookupCore/`: what the Python server did.
@@ -105,30 +79,6 @@ Desktop. On another Mac, bring it back with `generate_keys -f sparkle-key.txt`.
   `scripts/make-icon.swift` redraws `Resources/AppIcon.icns`.
 - `python-reference/`: the Python version this app was ported from, with its
   tools for rebuilding the bundled Bibles from eBible.org's files.
-
-## Tests
-
-```
-swift test
-```
-
-The tests check that the Swift code gives exactly the same results as the
-Python version: reference parsing, the full `/api/passage` answers for the KJV
-and ASV, and the HTML reader.
-
-The parser tests go further. They feed real responses from each online source
-to the Swift parsers and compare every verse, heading and title with what the
-Python parsers made of the same responses. Those responses contain copyrighted
-Bible text, so they aren't in this repository, and the test skips until you
-record your own. Copy `python-reference/config.example.json` to
-`python-reference/config.json`, add your keys, and run:
-
-```
-python3 python-reference/tools/make_fixtures.py
-```
-
-If a source changes its HTML, fix the Python parser first, record new fixtures,
-then change the Swift parser until `swift test` passes again.
 
 ## Privacy
 
