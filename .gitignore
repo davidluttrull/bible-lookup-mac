@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+.swiftpm/
+dist/
+__pycache__/
+
+# API keys: copy python-reference/config.example.json to config.json and fill it in
+python-reference/config.json
+
+# Recorded responses from the copyrighted translations (and what the parsers made of
+# them) stay on the machine that recorded them: python3 python-reference/tools/make_fixtures.py
+Tests/BibleLookupCoreTests/Fixtures/sources/
+Tests/BibleLookupCoreTests/Fixtures/parsers.json

@@ -1,0 +1,4844 @@
+{
+ "parse": [
+  {
+   "input": "John 3:16",
+   "query": "John 3:16",
+   "logos": "Jn3.16",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 16,
+    "isChapter": false,
+    "query": "John 3:16",
+    "display": "John 3:16",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 16,
+   "book": "JHN"
+  },
+  {
+   "input": "jn 3:16",
+   "query": "John 3:16",
+   "logos": "Jn3.16",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 16,
+    "isChapter": false,
+    "query": "John 3:16",
+    "display": "John 3:16",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 16,
+   "book": "JHN"
+  },
+  {
+   "input": "Jn3.16",
+   "query": "John 3:16",
+   "logos": "Jn3.16",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 16,
+    "isChapter": false,
+    "query": "John 3:16",
+    "display": "John 3:16",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 16,
+   "book": "JHN"
+  },
+  {
+   "input": "john 3 16",
+   "query": "John 3:16",
+   "logos": "Jn3.16",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 16,
+    "isChapter": false,
+    "query": "John 3:16",
+    "display": "John 3:16",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 16,
+   "book": "JHN"
+  },
+  {
+   "input": "  JOHN   3 : 16 ",
+   "query": "John 3:16",
+   "logos": "Jn3.16",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 16,
+    "isChapter": false,
+    "query": "John 3:16",
+    "display": "John 3:16",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 16,
+   "book": "JHN"
+  },
+  {
+   "input": "John 3:16-18",
+   "query": "John 3:16-18",
+   "logos": "Jn3.16-18",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 18,
+    "isChapter": false,
+    "query": "John 3:16-18",
+    "display": "John 3:16–18",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16-18",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16-18&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 18,
+   "book": "JHN"
+  },
+  {
+   "input": "John 3:16–18",
+   "query": "John 3:16-18",
+   "logos": "Jn3.16-18",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 18,
+    "isChapter": false,
+    "query": "John 3:16-18",
+    "display": "John 3:16–18",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16-18",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16-18&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 18,
+   "book": "JHN"
+  },
+  {
+   "input": "John 3:36-4:2",
+   "query": "John 3:36-4:2",
+   "logos": "Jn3.36-4.2",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 36,
+    "c2": 4,
+    "v2": 2,
+    "isChapter": false,
+    "query": "John 3:36-4:2",
+    "display": "John 3:36–4:2",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 5"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.36-4.2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A36-4%3A2&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 36,
+   "c2": 4,
+   "v2": 2,
+   "book": "JHN"
+  },
+  {
+   "input": "Gen 1-2",
+   "query": "Genesis 1-2",
+   "logos": "Ge1-2",
+   "isChapter": true,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 1,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "Genesis 1-2",
+    "display": "Genesis 1–2",
+    "chapterQuery": "Genesis 1",
+    "prev": null,
+    "next": "Genesis 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge1-2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%201-2&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "GEN"
+  },
+  {
+   "input": "Psalm 23",
+   "query": "Psalms 23",
+   "logos": "Ps23",
+   "isChapter": true,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 23,
+    "v1": null,
+    "c2": 23,
+    "v2": null,
+    "isChapter": true,
+    "query": "Psalms 23",
+    "display": "Psalm 23",
+    "chapterQuery": "Psalm 23",
+    "prev": "Psalm 22",
+    "next": "Psalm 24"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps23",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%2023&version=NASB1995"
+   },
+   "c1": 23,
+   "v1": null,
+   "c2": 23,
+   "v2": null,
+   "book": "PSA"
+  },
+  {
+   "input": "Romans",
+   "query": "Romans 1",
+   "logos": "Ro1",
+   "isChapter": true,
+   "payload": {
+    "book": "ROM",
+    "bookName": "Romans",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Romans 1",
+    "display": "Romans 1",
+    "chapterQuery": "Romans 1",
+    "prev": "Acts 28",
+    "next": "Romans 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ro1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Romans%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "ROM"
+  },
+  {
+   "input": "1 John 1:9",
+   "query": "1 John 1:9",
+   "logos": "1Jn1.9",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 1,
+    "v1": 9,
+    "c2": 1,
+    "v2": 9,
+    "isChapter": false,
+    "query": "1 John 1:9",
+    "display": "1 John 1:9",
+    "chapterQuery": "1 John 1",
+    "prev": "2 Peter 3",
+    "next": "1 John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn1.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%201%3A9&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 9,
+   "c2": 1,
+   "v2": 9,
+   "book": "1JN"
+  },
+  {
+   "input": "1John 1:9",
+   "query": "1 John 1:9",
+   "logos": "1Jn1.9",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 1,
+    "v1": 9,
+    "c2": 1,
+    "v2": 9,
+    "isChapter": false,
+    "query": "1 John 1:9",
+    "display": "1 John 1:9",
+    "chapterQuery": "1 John 1",
+    "prev": "2 Peter 3",
+    "next": "1 John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn1.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%201%3A9&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 9,
+   "c2": 1,
+   "v2": 9,
+   "book": "1JN"
+  },
+  {
+   "input": "1jn 1:9",
+   "query": "1 John 1:9",
+   "logos": "1Jn1.9",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 1,
+    "v1": 9,
+    "c2": 1,
+    "v2": 9,
+    "isChapter": false,
+    "query": "1 John 1:9",
+    "display": "1 John 1:9",
+    "chapterQuery": "1 John 1",
+    "prev": "2 Peter 3",
+    "next": "1 John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn1.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%201%3A9&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 9,
+   "c2": 1,
+   "v2": 9,
+   "book": "1JN"
+  },
+  {
+   "input": "I John 1:9",
+   "query": "1 John 1:9",
+   "logos": "1Jn1.9",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 1,
+    "v1": 9,
+    "c2": 1,
+    "v2": 9,
+    "isChapter": false,
+    "query": "1 John 1:9",
+    "display": "1 John 1:9",
+    "chapterQuery": "1 John 1",
+    "prev": "2 Peter 3",
+    "next": "1 John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn1.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%201%3A9&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 9,
+   "c2": 1,
+   "v2": 9,
+   "book": "1JN"
+  },
+  {
+   "input": "First John 1:9",
+   "query": "1 John 1:9",
+   "logos": "1Jn1.9",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 1,
+    "v1": 9,
+    "c2": 1,
+    "v2": 9,
+    "isChapter": false,
+    "query": "1 John 1:9",
+    "display": "1 John 1:9",
+    "chapterQuery": "1 John 1",
+    "prev": "2 Peter 3",
+    "next": "1 John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn1.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%201%3A9&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 9,
+   "c2": 1,
+   "v2": 9,
+   "book": "1JN"
+  },
+  {
+   "input": "1st John 1:9",
+   "query": "1 John 1:9",
+   "logos": "1Jn1.9",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 1,
+    "v1": 9,
+    "c2": 1,
+    "v2": 9,
+    "isChapter": false,
+    "query": "1 John 1:9",
+    "display": "1 John 1:9",
+    "chapterQuery": "1 John 1",
+    "prev": "2 Peter 3",
+    "next": "1 John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn1.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%201%3A9&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 9,
+   "c2": 1,
+   "v2": 9,
+   "book": "1JN"
+  },
+  {
+   "input": "II Tim 3:16",
+   "query": "2 Timothy 3:16",
+   "logos": "2Ti3.16",
+   "isChapter": false,
+   "payload": {
+    "book": "2TI",
+    "bookName": "2 Timothy",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 16,
+    "isChapter": false,
+    "query": "2 Timothy 3:16",
+    "display": "2 Timothy 3:16",
+    "chapterQuery": "2 Timothy 3",
+    "prev": "2 Timothy 2",
+    "next": "2 Timothy 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Ti3.16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20Timothy%203%3A16&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 16,
+   "book": "2TI"
+  },
+  {
+   "input": "3 jn 4",
+   "query": "3 John 1:4",
+   "logos": "3Jn1.4",
+   "isChapter": false,
+   "payload": {
+    "book": "3JN",
+    "bookName": "3 John",
+    "c1": 1,
+    "v1": 4,
+    "c2": 1,
+    "v2": 4,
+    "isChapter": false,
+    "query": "3 John 1:4",
+    "display": "3 John 1:4",
+    "chapterQuery": "3 John 1",
+    "prev": "2 John 1",
+    "next": "Jude 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.3Jn1.4",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=3%20John%201%3A4&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 4,
+   "c2": 1,
+   "v2": 4,
+   "book": "3JN"
+  },
+  {
+   "input": "Song of Solomon 2:1",
+   "query": "Song of Songs 2:1",
+   "logos": "So2.1",
+   "isChapter": false,
+   "payload": {
+    "book": "SNG",
+    "bookName": "Song of Songs",
+    "c1": 2,
+    "v1": 1,
+    "c2": 2,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Song of Songs 2:1",
+    "display": "Song of Songs 2:1",
+    "chapterQuery": "Song of Songs 2",
+    "prev": "Song of Songs 1",
+    "next": "Song of Songs 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.So2.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Song%20of%20Songs%202%3A1&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 1,
+   "c2": 2,
+   "v2": 1,
+   "book": "SNG"
+  },
+  {
+   "input": "Phil 4:13",
+   "query": "Philippians 4:13",
+   "logos": "Php4.13",
+   "isChapter": false,
+   "payload": {
+    "book": "PHP",
+    "bookName": "Philippians",
+    "c1": 4,
+    "v1": 13,
+    "c2": 4,
+    "v2": 13,
+    "isChapter": false,
+    "query": "Philippians 4:13",
+    "display": "Philippians 4:13",
+    "chapterQuery": "Philippians 4",
+    "prev": "Philippians 3",
+    "next": "Colossians 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Php4.13",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philippians%204%3A13&version=NASB1995"
+   },
+   "c1": 4,
+   "v1": 13,
+   "c2": 4,
+   "v2": 13,
+   "book": "PHP"
+  },
+  {
+   "input": "Phlm 1:4",
+   "query": "Philemon 1:4",
+   "logos": "Phm1.4",
+   "isChapter": false,
+   "payload": {
+    "book": "PHM",
+    "bookName": "Philemon",
+    "c1": 1,
+    "v1": 4,
+    "c2": 1,
+    "v2": 4,
+    "isChapter": false,
+    "query": "Philemon 1:4",
+    "display": "Philemon 1:4",
+    "chapterQuery": "Philemon 1",
+    "prev": "Titus 3",
+    "next": "Hebrews 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Phm1.4",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philemon%201%3A4&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 4,
+   "c2": 1,
+   "v2": 4,
+   "book": "PHM"
+  },
+  {
+   "input": "Is 53:5",
+   "query": "Isaiah 53:5",
+   "logos": "Is53.5",
+   "isChapter": false,
+   "payload": {
+    "book": "ISA",
+    "bookName": "Isaiah",
+    "c1": 53,
+    "v1": 5,
+    "c2": 53,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Isaiah 53:5",
+    "display": "Isaiah 53:5",
+    "chapterQuery": "Isaiah 53",
+    "prev": "Isaiah 52",
+    "next": "Isaiah 54"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Is53.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A5&version=NASB1995"
+   },
+   "c1": 53,
+   "v1": 5,
+   "c2": 53,
+   "v2": 5,
+   "book": "ISA"
+  },
+  {
+   "input": "Isa 53:5",
+   "query": "Isaiah 53:5",
+   "logos": "Is53.5",
+   "isChapter": false,
+   "payload": {
+    "book": "ISA",
+    "bookName": "Isaiah",
+    "c1": 53,
+    "v1": 5,
+    "c2": 53,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Isaiah 53:5",
+    "display": "Isaiah 53:5",
+    "chapterQuery": "Isaiah 53",
+    "prev": "Isaiah 52",
+    "next": "Isaiah 54"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Is53.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A5&version=NASB1995"
+   },
+   "c1": 53,
+   "v1": 5,
+   "c2": 53,
+   "v2": 5,
+   "book": "ISA"
+  },
+  {
+   "input": "Rev 22:21",
+   "query": "Revelation 22:21",
+   "logos": "Re22.21",
+   "isChapter": false,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 22,
+    "v1": 21,
+    "c2": 22,
+    "v2": 21,
+    "isChapter": false,
+    "query": "Revelation 22:21",
+    "display": "Revelation 22:21",
+    "chapterQuery": "Revelation 22",
+    "prev": "Revelation 21",
+    "next": null
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re22.21",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%2022%3A21&version=NASB1995"
+   },
+   "c1": 22,
+   "v1": 21,
+   "c2": 22,
+   "v2": 21,
+   "book": "REV"
+  },
+  {
+   "input": "revel 1:1",
+   "query": "Revelation 1:1",
+   "logos": "Re1.1",
+   "isChapter": false,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Revelation 1:1",
+    "display": "Revelation 1:1",
+    "chapterQuery": "Revelation 1",
+    "prev": "Jude 1",
+    "next": "Revelation 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re1.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%201%3A1&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 1,
+   "book": "REV"
+  },
+  {
+   "input": "Ecc 3:1",
+   "query": "Ecclesiastes 3:1",
+   "logos": "Ec3.1",
+   "isChapter": false,
+   "payload": {
+    "book": "ECC",
+    "bookName": "Ecclesiastes",
+    "c1": 3,
+    "v1": 1,
+    "c2": 3,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Ecclesiastes 3:1",
+    "display": "Ecclesiastes 3:1",
+    "chapterQuery": "Ecclesiastes 3",
+    "prev": "Ecclesiastes 2",
+    "next": "Ecclesiastes 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ec3.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Ecclesiastes%203%3A1&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 1,
+   "c2": 3,
+   "v2": 1,
+   "book": "ECC"
+  },
+  {
+   "input": "Jude 5",
+   "query": "Jude 1:5",
+   "logos": "Jud1.5",
+   "isChapter": false,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": 5,
+    "c2": 1,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Jude 1:5",
+    "display": "Jude 1:5",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201%3A5&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 5,
+   "c2": 1,
+   "v2": 5,
+   "book": "JUD"
+  },
+  {
+   "input": "Jude 3-5",
+   "query": "Jude 1:3-5",
+   "logos": "Jud1.3-5",
+   "isChapter": false,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": 3,
+    "c2": 1,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Jude 1:3-5",
+    "display": "Jude 1:3–5",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1.3-5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201%3A3-5&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 3,
+   "c2": 1,
+   "v2": 5,
+   "book": "JUD"
+  },
+  {
+   "input": "Jude 1:5",
+   "query": "Jude 1:5",
+   "logos": "Jud1.5",
+   "isChapter": false,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": 5,
+    "c2": 1,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Jude 1:5",
+    "display": "Jude 1:5",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201%3A5&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 5,
+   "c2": 1,
+   "v2": 5,
+   "book": "JUD"
+  },
+  {
+   "input": "Jude 1",
+   "query": "Jude 1",
+   "logos": "Jud1",
+   "isChapter": true,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Jude 1",
+    "display": "Jude 1",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "JUD"
+  },
+  {
+   "input": "Obadiah",
+   "query": "Obadiah 1",
+   "logos": "Ob1",
+   "isChapter": true,
+   "payload": {
+    "book": "OBA",
+    "bookName": "Obadiah",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Obadiah 1",
+    "display": "Obadiah 1",
+    "chapterQuery": "Obadiah 1",
+    "prev": "Amos 9",
+    "next": "Jonah 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ob1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Obadiah%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "OBA"
+  },
+  {
+   "input": "3 John 1:15",
+   "query": "3 John 1:15",
+   "logos": "3Jn1.15",
+   "isChapter": false,
+   "payload": {
+    "book": "3JN",
+    "bookName": "3 John",
+    "c1": 1,
+    "v1": 15,
+    "c2": 1,
+    "v2": 15,
+    "isChapter": false,
+    "query": "3 John 1:15",
+    "display": "3 John 1:15",
+    "chapterQuery": "3 John 1",
+    "prev": "2 John 1",
+    "next": "Jude 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.3Jn1.15",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=3%20John%201%3A15&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 15,
+   "c2": 1,
+   "v2": 15,
+   "book": "3JN"
+  },
+  {
+   "input": "John 3:16-99",
+   "query": "John 3:16-37",
+   "logos": "Jn3.16-37",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 37,
+    "isChapter": false,
+    "query": "John 3:16-37",
+    "display": "John 3:16–37",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16-37",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16-37&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 37,
+   "book": "JHN"
+  },
+  {
+   "input": "",
+   "error": "Type a reference, like John 3:16."
+  },
+  {
+   "input": "Hezekiah 3:1",
+   "error": "Couldn’t find a book called “Hezekiah”."
+  },
+  {
+   "input": "John 30",
+   "error": "John has only 21 chapters."
+  },
+  {
+   "input": "John 3:50",
+   "error": "John 3 has only 36 verses."
+  },
+  {
+   "input": "John 3:18-16",
+   "error": "The end of the range comes before the start."
+  },
+  {
+   "input": "Psalm 151",
+   "error": "Psalms has only 150 chapters."
+  },
+  {
+   "input": "123",
+   "error": "Couldn’t understand “123”. Try something like John 3:16."
+  },
+  {
+   "input": "Ps 119:176",
+   "query": "Psalms 119:176",
+   "logos": "Ps119.176",
+   "isChapter": false,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 119,
+    "v1": 176,
+    "c2": 119,
+    "v2": 176,
+    "isChapter": false,
+    "query": "Psalms 119:176",
+    "display": "Psalm 119:176",
+    "chapterQuery": "Psalm 119",
+    "prev": "Psalm 118",
+    "next": "Psalm 120"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps119.176",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%20119%3A176&version=NASB1995"
+   },
+   "c1": 119,
+   "v1": 176,
+   "c2": 119,
+   "v2": 176,
+   "book": "PSA"
+  },
+  {
+   "input": "Ps 119:177",
+   "query": "Psalms 119:177",
+   "logos": "Ps119.177",
+   "isChapter": false,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 119,
+    "v1": 177,
+    "c2": 119,
+    "v2": 177,
+    "isChapter": false,
+    "query": "Psalms 119:177",
+    "display": "Psalm 119:177",
+    "chapterQuery": "Psalm 119",
+    "prev": "Psalm 118",
+    "next": "Psalm 120"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps119.177",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%20119%3A177&version=NASB1995"
+   },
+   "c1": 119,
+   "v1": 177,
+   "c2": 119,
+   "v2": 177,
+   "book": "PSA"
+  },
+  {
+   "input": "Ps 119:178",
+   "error": "Psalms 119 has only 176 verses."
+  },
+  {
+   "input": "Gen 50:1-99",
+   "query": "Genesis 50:1-27",
+   "logos": "Ge50.1-27",
+   "isChapter": false,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 50,
+    "v1": 1,
+    "c2": 50,
+    "v2": 27,
+    "isChapter": false,
+    "query": "Genesis 50:1-27",
+    "display": "Genesis 50:1–27",
+    "chapterQuery": "Genesis 50",
+    "prev": "Genesis 49",
+    "next": "Exodus 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge50.1-27",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%2050%3A1-27&version=NASB1995"
+   },
+   "c1": 50,
+   "v1": 1,
+   "c2": 50,
+   "v2": 27,
+   "book": "GEN"
+  },
+  {
+   "input": "Gen 49:1-50:3",
+   "query": "Genesis 49:1-50:3",
+   "logos": "Ge49.1-50.3",
+   "isChapter": false,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 49,
+    "v1": 1,
+    "c2": 50,
+    "v2": 3,
+    "isChapter": false,
+    "query": "Genesis 49:1-50:3",
+    "display": "Genesis 49:1–50:3",
+    "chapterQuery": "Genesis 49",
+    "prev": "Genesis 48",
+    "next": "Exodus 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge49.1-50.3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%2049%3A1-50%3A3&version=NASB1995"
+   },
+   "c1": 49,
+   "v1": 1,
+   "c2": 50,
+   "v2": 3,
+   "book": "GEN"
+  },
+  {
+   "input": "Gen 2-1",
+   "error": "The end of the range comes before the start."
+  },
+  {
+   "input": "Gen 1:5-",
+   "query": "Genesis 1:5",
+   "logos": "Ge1.5",
+   "isChapter": false,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 1,
+    "v1": 5,
+    "c2": 1,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Genesis 1:5",
+    "display": "Genesis 1:5",
+    "chapterQuery": "Genesis 1",
+    "prev": null,
+    "next": "Genesis 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge1.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%201%3A5&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 5,
+   "c2": 1,
+   "v2": 5,
+   "book": "GEN"
+  },
+  {
+   "input": "John 3:",
+   "query": "John 3",
+   "logos": "Jn3",
+   "isChapter": true,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": null,
+    "c2": 3,
+    "v2": null,
+    "isChapter": true,
+    "query": "John 3",
+    "display": "John 3",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": null,
+   "c2": 3,
+   "v2": null,
+   "book": "JHN"
+  },
+  {
+   "input": "John 3.",
+   "query": "John 3",
+   "logos": "Jn3",
+   "isChapter": true,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": null,
+    "c2": 3,
+    "v2": null,
+    "isChapter": true,
+    "query": "John 3",
+    "display": "John 3",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": null,
+   "c2": 3,
+   "v2": null,
+   "book": "JHN"
+  },
+  {
+   "input": "Mt 5:3-7:29",
+   "query": "Matthew 5:3-7:29",
+   "logos": "Mt5.3-7.29",
+   "isChapter": false,
+   "payload": {
+    "book": "MAT",
+    "bookName": "Matthew",
+    "c1": 5,
+    "v1": 3,
+    "c2": 7,
+    "v2": 29,
+    "isChapter": false,
+    "query": "Matthew 5:3-7:29",
+    "display": "Matthew 5:3–7:29",
+    "chapterQuery": "Matthew 5",
+    "prev": "Matthew 4",
+    "next": "Matthew 8"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mt5.3-7.29",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Matthew%205%3A3-7%3A29&version=NASB1995"
+   },
+   "c1": 5,
+   "v1": 3,
+   "c2": 7,
+   "v2": 29,
+   "book": "MAT"
+  },
+  {
+   "input": "Philemon 3",
+   "query": "Philemon 1:3",
+   "logos": "Phm1.3",
+   "isChapter": false,
+   "payload": {
+    "book": "PHM",
+    "bookName": "Philemon",
+    "c1": 1,
+    "v1": 3,
+    "c2": 1,
+    "v2": 3,
+    "isChapter": false,
+    "query": "Philemon 1:3",
+    "display": "Philemon 1:3",
+    "chapterQuery": "Philemon 1",
+    "prev": "Titus 3",
+    "next": "Hebrews 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Phm1.3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philemon%201%3A3&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 3,
+   "c2": 1,
+   "v2": 3,
+   "book": "PHM"
+  },
+  {
+   "input": "Phm 1-3",
+   "query": "Philemon 1:1-3",
+   "logos": "Phm1.1-3",
+   "isChapter": false,
+   "payload": {
+    "book": "PHM",
+    "bookName": "Philemon",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 3,
+    "isChapter": false,
+    "query": "Philemon 1:1-3",
+    "display": "Philemon 1:1–3",
+    "chapterQuery": "Philemon 1",
+    "prev": "Titus 3",
+    "next": "Hebrews 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Phm1.1-3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philemon%201%3A1-3&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 3,
+   "book": "PHM"
+  },
+  {
+   "input": "2 John 1-2",
+   "query": "2 John 1:1-2",
+   "logos": "2Jn1.1-2",
+   "isChapter": false,
+   "payload": {
+    "book": "2JN",
+    "bookName": "2 John",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 2,
+    "isChapter": false,
+    "query": "2 John 1:1-2",
+    "display": "2 John 1:1–2",
+    "chapterQuery": "2 John 1",
+    "prev": "1 John 5",
+    "next": "3 John 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Jn1.1-2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20John%201%3A1-2&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 2,
+   "book": "2JN"
+  },
+  {
+   "input": "jud 1:1-3",
+   "query": "Jude 1:1-3",
+   "logos": "Jud1.1-3",
+   "isChapter": false,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 3,
+    "isChapter": false,
+    "query": "Jude 1:1-3",
+    "display": "Jude 1:1–3",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1.1-3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201%3A1-3&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 3,
+   "book": "JUD"
+  },
+  {
+   "input": "Song 1:1",
+   "query": "Song of Songs 1:1",
+   "logos": "So1.1",
+   "isChapter": false,
+   "payload": {
+    "book": "SNG",
+    "bookName": "Song of Songs",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Song of Songs 1:1",
+    "display": "Song of Songs 1:1",
+    "chapterQuery": "Song of Songs 1",
+    "prev": "Ecclesiastes 12",
+    "next": "Song of Songs 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.So1.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Song%20of%20Songs%201%3A1&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 1,
+   "book": "SNG"
+  },
+  {
+   "input": "Canticles 2",
+   "query": "Song of Songs 2",
+   "logos": "So2",
+   "isChapter": true,
+   "payload": {
+    "book": "SNG",
+    "bookName": "Song of Songs",
+    "c1": 2,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "Song of Songs 2",
+    "display": "Song of Songs 2",
+    "chapterQuery": "Song of Songs 2",
+    "prev": "Song of Songs 1",
+    "next": "Song of Songs 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.So2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Song%20of%20Songs%202&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "SNG"
+  },
+  {
+   "input": "Qoh 1",
+   "query": "Ecclesiastes 1",
+   "logos": "Ec1",
+   "isChapter": true,
+   "payload": {
+    "book": "ECC",
+    "bookName": "Ecclesiastes",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Ecclesiastes 1",
+    "display": "Ecclesiastes 1",
+    "chapterQuery": "Ecclesiastes 1",
+    "prev": "Proverbs 31",
+    "next": "Ecclesiastes 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ec1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Ecclesiastes%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "ECC"
+  },
+  {
+   "input": "iii john 2",
+   "query": "3 John 1:2",
+   "logos": "3Jn1.2",
+   "isChapter": false,
+   "payload": {
+    "book": "3JN",
+    "bookName": "3 John",
+    "c1": 1,
+    "v1": 2,
+    "c2": 1,
+    "v2": 2,
+    "isChapter": false,
+    "query": "3 John 1:2",
+    "display": "3 John 1:2",
+    "chapterQuery": "3 John 1",
+    "prev": "2 John 1",
+    "next": "Jude 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.3Jn1.2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=3%20John%201%3A2&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 2,
+   "c2": 1,
+   "v2": 2,
+   "book": "3JN"
+  },
+  {
+   "input": "Third John 2",
+   "query": "3 John 1:2",
+   "logos": "3Jn1.2",
+   "isChapter": false,
+   "payload": {
+    "book": "3JN",
+    "bookName": "3 John",
+    "c1": 1,
+    "v1": 2,
+    "c2": 1,
+    "v2": 2,
+    "isChapter": false,
+    "query": "3 John 1:2",
+    "display": "3 John 1:2",
+    "chapterQuery": "3 John 1",
+    "prev": "2 John 1",
+    "next": "Jude 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.3Jn1.2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=3%20John%201%3A2&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 2,
+   "c2": 1,
+   "v2": 2,
+   "book": "3JN"
+  },
+  {
+   "input": "3rd jn 2",
+   "query": "3 John 1:2",
+   "logos": "3Jn1.2",
+   "isChapter": false,
+   "payload": {
+    "book": "3JN",
+    "bookName": "3 John",
+    "c1": 1,
+    "v1": 2,
+    "c2": 1,
+    "v2": 2,
+    "isChapter": false,
+    "query": "3 John 1:2",
+    "display": "3 John 1:2",
+    "chapterQuery": "3 John 1",
+    "prev": "2 John 1",
+    "next": "Jude 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.3Jn1.2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=3%20John%201%3A2&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 2,
+   "c2": 1,
+   "v2": 2,
+   "book": "3JN"
+  },
+  {
+   "input": "second kings 2:11",
+   "query": "2 Kings 2:11",
+   "logos": "2Ki2.11",
+   "isChapter": false,
+   "payload": {
+    "book": "2KI",
+    "bookName": "2 Kings",
+    "c1": 2,
+    "v1": 11,
+    "c2": 2,
+    "v2": 11,
+    "isChapter": false,
+    "query": "2 Kings 2:11",
+    "display": "2 Kings 2:11",
+    "chapterQuery": "2 Kings 2",
+    "prev": "2 Kings 1",
+    "next": "2 Kings 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Ki2.11",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20Kings%202%3A11&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 11,
+   "c2": 2,
+   "v2": 11,
+   "book": "2KI"
+  },
+  {
+   "input": "Ps 23:1–6",
+   "query": "Psalms 23:1-6",
+   "logos": "Ps23.1-6",
+   "isChapter": false,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 23,
+    "v1": 1,
+    "c2": 23,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Psalms 23:1-6",
+    "display": "Psalm 23:1–6",
+    "chapterQuery": "Psalm 23",
+    "prev": "Psalm 22",
+    "next": "Psalm 24"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps23.1-6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%2023%3A1-6&version=NASB1995"
+   },
+   "c1": 23,
+   "v1": 1,
+   "c2": 23,
+   "v2": 6,
+   "book": "PSA"
+  },
+  {
+   "input": "Ps 23:1—6",
+   "query": "Psalms 23:1-6",
+   "logos": "Ps23.1-6",
+   "isChapter": false,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 23,
+    "v1": 1,
+    "c2": 23,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Psalms 23:1-6",
+    "display": "Psalm 23:1–6",
+    "chapterQuery": "Psalm 23",
+    "prev": "Psalm 22",
+    "next": "Psalm 24"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps23.1-6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%2023%3A1-6&version=NASB1995"
+   },
+   "c1": 23,
+   "v1": 1,
+   "c2": 23,
+   "v2": 6,
+   "book": "PSA"
+  },
+  {
+   "input": "Ps 23 : 1 - 6",
+   "query": "Psalms 23:1-6",
+   "logos": "Ps23.1-6",
+   "isChapter": false,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 23,
+    "v1": 1,
+    "c2": 23,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Psalms 23:1-6",
+    "display": "Psalm 23:1–6",
+    "chapterQuery": "Psalm 23",
+    "prev": "Psalm 22",
+    "next": "Psalm 24"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps23.1-6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%2023%3A1-6&version=NASB1995"
+   },
+   "c1": 23,
+   "v1": 1,
+   "c2": 23,
+   "v2": 6,
+   "book": "PSA"
+  },
+  {
+   "input": "John 3 16 - 18",
+   "query": "John 3:16-18",
+   "logos": "Jn3.16-18",
+   "isChapter": false,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 3,
+    "v1": 16,
+    "c2": 3,
+    "v2": 18,
+    "isChapter": false,
+    "query": "John 3:16-18",
+    "display": "John 3:16–18",
+    "chapterQuery": "John 3",
+    "prev": "John 2",
+    "next": "John 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn3.16-18",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%203%3A16-18&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 16,
+   "c2": 3,
+   "v2": 18,
+   "book": "JHN"
+  },
+  {
+   "input": "Revelations 1",
+   "query": "Revelation 1",
+   "logos": "Re1",
+   "isChapter": true,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Revelation 1",
+    "display": "Revelation 1",
+    "chapterQuery": "Revelation 1",
+    "prev": "Jude 1",
+    "next": "Revelation 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "REV"
+  },
+  {
+   "input": "apocalypse 1:1",
+   "query": "Revelation 1:1",
+   "logos": "Re1.1",
+   "isChapter": false,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Revelation 1:1",
+    "display": "Revelation 1:1",
+    "chapterQuery": "Revelation 1",
+    "prev": "Jude 1",
+    "next": "Revelation 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re1.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%201%3A1&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 1,
+   "book": "REV"
+  },
+  {
+   "input": "j 1",
+   "query": "Joshua 1",
+   "logos": "Jos1",
+   "isChapter": true,
+   "payload": {
+    "book": "JOS",
+    "bookName": "Joshua",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Joshua 1",
+    "display": "Joshua 1",
+    "chapterQuery": "Joshua 1",
+    "prev": "Deuteronomy 34",
+    "next": "Joshua 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jos1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Joshua%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "JOS"
+  },
+  {
+   "input": "jo 1:1",
+   "query": "Joshua 1:1",
+   "logos": "Jos1.1",
+   "isChapter": false,
+   "payload": {
+    "book": "JOS",
+    "bookName": "Joshua",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Joshua 1:1",
+    "display": "Joshua 1:1",
+    "chapterQuery": "Joshua 1",
+    "prev": "Deuteronomy 34",
+    "next": "Joshua 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jos1.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Joshua%201%3A1&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 1,
+   "book": "JOS"
+  },
+  {
+   "input": "jud 5",
+   "query": "Jude 1:5",
+   "logos": "Jud1.5",
+   "isChapter": false,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": 5,
+    "c2": 1,
+    "v2": 5,
+    "isChapter": false,
+    "query": "Jude 1:5",
+    "display": "Jude 1:5",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201%3A5&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 5,
+   "c2": 1,
+   "v2": 5,
+   "book": "JUD"
+  },
+  {
+   "input": "ju 5",
+   "query": "Judges 5",
+   "logos": "Jdg5",
+   "isChapter": true,
+   "payload": {
+    "book": "JDG",
+    "bookName": "Judges",
+    "c1": 5,
+    "v1": null,
+    "c2": 5,
+    "v2": null,
+    "isChapter": true,
+    "query": "Judges 5",
+    "display": "Judges 5",
+    "chapterQuery": "Judges 5",
+    "prev": "Judges 4",
+    "next": "Judges 6"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jdg5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Judges%205&version=NASB1995"
+   },
+   "c1": 5,
+   "v1": null,
+   "c2": 5,
+   "v2": null,
+   "book": "JDG"
+  },
+  {
+   "input": "ph 1",
+   "query": "Philippians 1",
+   "logos": "Php1",
+   "isChapter": true,
+   "payload": {
+    "book": "PHP",
+    "bookName": "Philippians",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Philippians 1",
+    "display": "Philippians 1",
+    "chapterQuery": "Philippians 1",
+    "prev": "Ephesians 6",
+    "next": "Philippians 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Php1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philippians%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "PHP"
+  },
+  {
+   "input": "phi 1",
+   "query": "Philippians 1",
+   "logos": "Php1",
+   "isChapter": true,
+   "payload": {
+    "book": "PHP",
+    "bookName": "Philippians",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Philippians 1",
+    "display": "Philippians 1",
+    "chapterQuery": "Philippians 1",
+    "prev": "Ephesians 6",
+    "next": "Philippians 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Php1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philippians%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "PHP"
+  },
+  {
+   "input": "ma 1",
+   "query": "Malachi 1",
+   "logos": "Mal1",
+   "isChapter": true,
+   "payload": {
+    "book": "MAL",
+    "bookName": "Malachi",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Malachi 1",
+    "display": "Malachi 1",
+    "chapterQuery": "Malachi 1",
+    "prev": "Zechariah 14",
+    "next": "Malachi 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mal1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Malachi%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "MAL"
+  },
+  {
+   "input": "1 c 13",
+   "query": "1 Chronicles 13",
+   "logos": "1Ch13",
+   "isChapter": true,
+   "payload": {
+    "book": "1CH",
+    "bookName": "1 Chronicles",
+    "c1": 13,
+    "v1": null,
+    "c2": 13,
+    "v2": null,
+    "isChapter": true,
+    "query": "1 Chronicles 13",
+    "display": "1 Chronicles 13",
+    "chapterQuery": "1 Chronicles 13",
+    "prev": "1 Chronicles 12",
+    "next": "1 Chronicles 14"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Ch13",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Chronicles%2013&version=NASB1995"
+   },
+   "c1": 13,
+   "v1": null,
+   "c2": 13,
+   "v2": null,
+   "book": "1CH"
+  },
+  {
+   "input": "1 cor 13:4-7",
+   "query": "1 Corinthians 13:4-7",
+   "logos": "1Co13.4-7",
+   "isChapter": false,
+   "payload": {
+    "book": "1CO",
+    "bookName": "1 Corinthians",
+    "c1": 13,
+    "v1": 4,
+    "c2": 13,
+    "v2": 7,
+    "isChapter": false,
+    "query": "1 Corinthians 13:4-7",
+    "display": "1 Corinthians 13:4–7",
+    "chapterQuery": "1 Corinthians 13",
+    "prev": "1 Corinthians 12",
+    "next": "1 Corinthians 14"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Co13.4-7",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2013%3A4-7&version=NASB1995"
+   },
+   "c1": 13,
+   "v1": 4,
+   "c2": 13,
+   "v2": 7,
+   "book": "1CO"
+  },
+  {
+   "input": "1co13",
+   "query": "1 Corinthians 13",
+   "logos": "1Co13",
+   "isChapter": true,
+   "payload": {
+    "book": "1CO",
+    "bookName": "1 Corinthians",
+    "c1": 13,
+    "v1": null,
+    "c2": 13,
+    "v2": null,
+    "isChapter": true,
+    "query": "1 Corinthians 13",
+    "display": "1 Corinthians 13",
+    "chapterQuery": "1 Corinthians 13",
+    "prev": "1 Corinthians 12",
+    "next": "1 Corinthians 14"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Co13",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2013&version=NASB1995"
+   },
+   "c1": 13,
+   "v1": null,
+   "c2": 13,
+   "v2": null,
+   "book": "1CO"
+  },
+  {
+   "input": "2 Ch 7:14",
+   "query": "2 Chronicles 7:14",
+   "logos": "2Ch7.14",
+   "isChapter": false,
+   "payload": {
+    "book": "2CH",
+    "bookName": "2 Chronicles",
+    "c1": 7,
+    "v1": 14,
+    "c2": 7,
+    "v2": 14,
+    "isChapter": false,
+    "query": "2 Chronicles 7:14",
+    "display": "2 Chronicles 7:14",
+    "chapterQuery": "2 Chronicles 7",
+    "prev": "2 Chronicles 6",
+    "next": "2 Chronicles 8"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Ch7.14",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20Chronicles%207%3A14&version=NASB1995"
+   },
+   "c1": 7,
+   "v1": 14,
+   "c2": 7,
+   "v2": 14,
+   "book": "2CH"
+  },
+  {
+   "input": "Dt 6:4",
+   "query": "Deuteronomy 6:4",
+   "logos": "Dt6.4",
+   "isChapter": false,
+   "payload": {
+    "book": "DEU",
+    "bookName": "Deuteronomy",
+    "c1": 6,
+    "v1": 4,
+    "c2": 6,
+    "v2": 4,
+    "isChapter": false,
+    "query": "Deuteronomy 6:4",
+    "display": "Deuteronomy 6:4",
+    "chapterQuery": "Deuteronomy 6",
+    "prev": "Deuteronomy 5",
+    "next": "Deuteronomy 7"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Dt6.4",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4&version=NASB1995"
+   },
+   "c1": 6,
+   "v1": 4,
+   "c2": 6,
+   "v2": 4,
+   "book": "DEU"
+  },
+  {
+   "input": "Eze 37",
+   "query": "Ezekiel 37",
+   "logos": "Eze37",
+   "isChapter": true,
+   "payload": {
+    "book": "EZK",
+    "bookName": "Ezekiel",
+    "c1": 37,
+    "v1": null,
+    "c2": 37,
+    "v2": null,
+    "isChapter": true,
+    "query": "Ezekiel 37",
+    "display": "Ezekiel 37",
+    "chapterQuery": "Ezekiel 37",
+    "prev": "Ezekiel 36",
+    "next": "Ezekiel 38"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Eze37",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Ezekiel%2037&version=NASB1995"
+   },
+   "c1": 37,
+   "v1": null,
+   "c2": 37,
+   "v2": null,
+   "book": "EZK"
+  },
+  {
+   "input": "Ezk 37:1",
+   "query": "Ezekiel 37:1",
+   "logos": "Eze37.1",
+   "isChapter": false,
+   "payload": {
+    "book": "EZK",
+    "bookName": "Ezekiel",
+    "c1": 37,
+    "v1": 1,
+    "c2": 37,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Ezekiel 37:1",
+    "display": "Ezekiel 37:1",
+    "chapterQuery": "Ezekiel 37",
+    "prev": "Ezekiel 36",
+    "next": "Ezekiel 38"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Eze37.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Ezekiel%2037%3A1&version=NASB1995"
+   },
+   "c1": 37,
+   "v1": 1,
+   "c2": 37,
+   "v2": 1,
+   "book": "EZK"
+  },
+  {
+   "input": "Mk 1",
+   "query": "Mark 1",
+   "logos": "Mk1",
+   "isChapter": true,
+   "payload": {
+    "book": "MRK",
+    "bookName": "Mark",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Mark 1",
+    "display": "Mark 1",
+    "chapterQuery": "Mark 1",
+    "prev": "Matthew 28",
+    "next": "Mark 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mk1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Mark%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "MRK"
+  },
+  {
+   "input": "Lk 2:1-20",
+   "query": "Luke 2:1-20",
+   "logos": "Lk2.1-20",
+   "isChapter": false,
+   "payload": {
+    "book": "LUK",
+    "bookName": "Luke",
+    "c1": 2,
+    "v1": 1,
+    "c2": 2,
+    "v2": 20,
+    "isChapter": false,
+    "query": "Luke 2:1-20",
+    "display": "Luke 2:1–20",
+    "chapterQuery": "Luke 2",
+    "prev": "Luke 1",
+    "next": "Luke 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Lk2.1-20",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Luke%202%3A1-20&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 1,
+   "c2": 2,
+   "v2": 20,
+   "book": "LUK"
+  },
+  {
+   "input": "Ac 2",
+   "query": "Acts 2",
+   "logos": "Ac2",
+   "isChapter": true,
+   "payload": {
+    "book": "ACT",
+    "bookName": "Acts",
+    "c1": 2,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "Acts 2",
+    "display": "Acts 2",
+    "chapterQuery": "Acts 2",
+    "prev": "Acts 1",
+    "next": "Acts 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ac2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Acts%202&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "ACT"
+  },
+  {
+   "input": "Ro 8:28",
+   "query": "Romans 8:28",
+   "logos": "Ro8.28",
+   "isChapter": false,
+   "payload": {
+    "book": "ROM",
+    "bookName": "Romans",
+    "c1": 8,
+    "v1": 28,
+    "c2": 8,
+    "v2": 28,
+    "isChapter": false,
+    "query": "Romans 8:28",
+    "display": "Romans 8:28",
+    "chapterQuery": "Romans 8",
+    "prev": "Romans 7",
+    "next": "Romans 9"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ro8.28",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Romans%208%3A28&version=NASB1995"
+   },
+   "c1": 8,
+   "v1": 28,
+   "c2": 8,
+   "v2": 28,
+   "book": "ROM"
+  },
+  {
+   "input": "Heb 11",
+   "query": "Hebrews 11",
+   "logos": "Heb11",
+   "isChapter": true,
+   "payload": {
+    "book": "HEB",
+    "bookName": "Hebrews",
+    "c1": 11,
+    "v1": null,
+    "c2": 11,
+    "v2": null,
+    "isChapter": true,
+    "query": "Hebrews 11",
+    "display": "Hebrews 11",
+    "chapterQuery": "Hebrews 11",
+    "prev": "Hebrews 10",
+    "next": "Hebrews 12"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Heb11",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Hebrews%2011&version=NASB1995"
+   },
+   "c1": 11,
+   "v1": null,
+   "c2": 11,
+   "v2": null,
+   "book": "HEB"
+  },
+  {
+   "input": "Jas 1:5",
+   "query": "James 1:5",
+   "logos": "Jas1.5",
+   "isChapter": false,
+   "payload": {
+    "book": "JAS",
+    "bookName": "James",
+    "c1": 1,
+    "v1": 5,
+    "c2": 1,
+    "v2": 5,
+    "isChapter": false,
+    "query": "James 1:5",
+    "display": "James 1:5",
+    "chapterQuery": "James 1",
+    "prev": "Hebrews 13",
+    "next": "James 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jas1.5",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=James%201%3A5&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 5,
+   "c2": 1,
+   "v2": 5,
+   "book": "JAS"
+  },
+  {
+   "input": "Rev 22",
+   "query": "Revelation 22",
+   "logos": "Re22",
+   "isChapter": true,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 22,
+    "v1": null,
+    "c2": 22,
+    "v2": null,
+    "isChapter": true,
+    "query": "Revelation 22",
+    "display": "Revelation 22",
+    "chapterQuery": "Revelation 22",
+    "prev": "Revelation 21",
+    "next": null
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re22",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%2022&version=NASB1995"
+   },
+   "c1": 22,
+   "v1": null,
+   "c2": 22,
+   "v2": null,
+   "book": "REV"
+  },
+  {
+   "input": "Rev 22:22",
+   "query": "Revelation 22:22",
+   "logos": "Re22.22",
+   "isChapter": false,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 22,
+    "v1": 22,
+    "c2": 22,
+    "v2": 22,
+    "isChapter": false,
+    "query": "Revelation 22:22",
+    "display": "Revelation 22:22",
+    "chapterQuery": "Revelation 22",
+    "prev": "Revelation 21",
+    "next": null
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re22.22",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%2022%3A22&version=NASB1995"
+   },
+   "c1": 22,
+   "v1": 22,
+   "c2": 22,
+   "v2": 22,
+   "book": "REV"
+  },
+  {
+   "input": "Rev 23",
+   "error": "Revelation has only 22 chapters."
+  },
+  {
+   "input": "3 John 1:16",
+   "error": "3 John 1 has only 14 verses."
+  },
+  {
+   "input": "Rev 12:18",
+   "query": "Revelation 12:18",
+   "logos": "Re12.18",
+   "isChapter": false,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 12,
+    "v1": 18,
+    "c2": 12,
+    "v2": 18,
+    "isChapter": false,
+    "query": "Revelation 12:18",
+    "display": "Revelation 12:18",
+    "chapterQuery": "Revelation 12",
+    "prev": "Revelation 11",
+    "next": "Revelation 13"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re12.18",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A18&version=NASB1995"
+   },
+   "c1": 12,
+   "v1": 18,
+   "c2": 12,
+   "v2": 18,
+   "book": "REV"
+  },
+  {
+   "input": "Mal 4:6",
+   "query": "Malachi 4:6",
+   "logos": "Mal4.6",
+   "isChapter": false,
+   "payload": {
+    "book": "MAL",
+    "bookName": "Malachi",
+    "c1": 4,
+    "v1": 6,
+    "c2": 4,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Malachi 4:6",
+    "display": "Malachi 4:6",
+    "chapterQuery": "Malachi 4",
+    "prev": "Malachi 3",
+    "next": "Matthew 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mal4.6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Malachi%204%3A6&version=NASB1995"
+   },
+   "c1": 4,
+   "v1": 6,
+   "c2": 4,
+   "v2": 6,
+   "book": "MAL"
+  },
+  {
+   "input": "Mal 4:7",
+   "query": "Malachi 4:7",
+   "logos": "Mal4.7",
+   "isChapter": false,
+   "payload": {
+    "book": "MAL",
+    "bookName": "Malachi",
+    "c1": 4,
+    "v1": 7,
+    "c2": 4,
+    "v2": 7,
+    "isChapter": false,
+    "query": "Malachi 4:7",
+    "display": "Malachi 4:7",
+    "chapterQuery": "Malachi 4",
+    "prev": "Malachi 3",
+    "next": "Matthew 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mal4.7",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Malachi%204%3A7&version=NASB1995"
+   },
+   "c1": 4,
+   "v1": 7,
+   "c2": 4,
+   "v2": 7,
+   "book": "MAL"
+  },
+  {
+   "input": "Mal 4:8",
+   "error": "Malachi 4 has only 6 verses."
+  },
+  {
+   "input": "Psalms 1-150",
+   "query": "Psalms 1-150",
+   "logos": "Ps1-150",
+   "isChapter": true,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 1,
+    "v1": null,
+    "c2": 150,
+    "v2": null,
+    "isChapter": true,
+    "query": "Psalms 1-150",
+    "display": "Psalms 1–150",
+    "chapterQuery": "Psalms 1",
+    "prev": "Job 42",
+    "next": "Proverbs 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps1-150",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%201-150&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 150,
+   "v2": null,
+   "book": "PSA"
+  },
+  {
+   "input": "Psalms 150-151",
+   "error": "Psalms has only 150 chapters."
+  },
+  {
+   "input": "John 3:16-4",
+   "error": "The end of the range comes before the start."
+  },
+  {
+   "input": "John 3:16-4:",
+   "error": "The end of the range comes before the start."
+  },
+  {
+   "input": "Gen 1:1-1:1",
+   "query": "Genesis 1:1",
+   "logos": "Ge1.1",
+   "isChapter": false,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Genesis 1:1",
+    "display": "Genesis 1:1",
+    "chapterQuery": "Genesis 1",
+    "prev": null,
+    "next": "Genesis 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge1.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%201%3A1&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 1,
+   "book": "GEN"
+  },
+  {
+   "input": "Jn 3:0",
+   "error": "John 3 has only 36 verses."
+  },
+  {
+   "input": "Jn 0",
+   "error": "John has only 21 chapters."
+  },
+  {
+   "input": "Gen 1:1-2:0",
+   "query": "Genesis 1:1-2:0",
+   "logos": "Ge1.1-2.0",
+   "isChapter": false,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 1,
+    "v1": 1,
+    "c2": 2,
+    "v2": 0,
+    "isChapter": false,
+    "query": "Genesis 1:1-2:0",
+    "display": "Genesis 1:1–2:0",
+    "chapterQuery": "Genesis 1",
+    "prev": null,
+    "next": "Genesis 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge1.1-2.0",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%201%3A1-2%3A0&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 2,
+   "v2": 0,
+   "book": "GEN"
+  },
+  {
+   "input": "John three",
+   "error": "Couldn’t find a book called “John three”."
+  },
+  {
+   "input": "Joh",
+   "query": "John 1",
+   "logos": "Jn1",
+   "isChapter": true,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "John 1",
+    "display": "John 1",
+    "chapterQuery": "John 1",
+    "prev": "Luke 24",
+    "next": "John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "JHN"
+  },
+  {
+   "input": "Ps.23",
+   "query": "Psalms 23",
+   "logos": "Ps23",
+   "isChapter": true,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 23,
+    "v1": null,
+    "c2": 23,
+    "v2": null,
+    "isChapter": true,
+    "query": "Psalms 23",
+    "display": "Psalm 23",
+    "chapterQuery": "Psalm 23",
+    "prev": "Psalm 22",
+    "next": "Psalm 24"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps23",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%2023&version=NASB1995"
+   },
+   "c1": 23,
+   "v1": null,
+   "c2": 23,
+   "v2": null,
+   "book": "PSA"
+  },
+  {
+   "input": "Ps. 23",
+   "query": "Psalms 23",
+   "logos": "Ps23",
+   "isChapter": true,
+   "payload": {
+    "book": "PSA",
+    "bookName": "Psalms",
+    "c1": 23,
+    "v1": null,
+    "c2": 23,
+    "v2": null,
+    "isChapter": true,
+    "query": "Psalms 23",
+    "display": "Psalm 23",
+    "chapterQuery": "Psalm 23",
+    "prev": "Psalm 22",
+    "next": "Psalm 24"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ps23",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Psalms%2023&version=NASB1995"
+   },
+   "c1": 23,
+   "v1": null,
+   "c2": 23,
+   "v2": null,
+   "book": "PSA"
+  },
+  {
+   "input": "Gn 1:1",
+   "query": "Genesis 1:1",
+   "logos": "Ge1.1",
+   "isChapter": false,
+   "payload": {
+    "book": "GEN",
+    "bookName": "Genesis",
+    "c1": 1,
+    "v1": 1,
+    "c2": 1,
+    "v2": 1,
+    "isChapter": false,
+    "query": "Genesis 1:1",
+    "display": "Genesis 1:1",
+    "chapterQuery": "Genesis 1",
+    "prev": null,
+    "next": "Genesis 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ge1.1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Genesis%201%3A1&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 1,
+   "c2": 1,
+   "v2": 1,
+   "book": "GEN"
+  },
+  {
+   "input": "Jer 29:11",
+   "query": "Jeremiah 29:11",
+   "logos": "Je29.11",
+   "isChapter": false,
+   "payload": {
+    "book": "JER",
+    "bookName": "Jeremiah",
+    "c1": 29,
+    "v1": 11,
+    "c2": 29,
+    "v2": 11,
+    "isChapter": false,
+    "query": "Jeremiah 29:11",
+    "display": "Jeremiah 29:11",
+    "chapterQuery": "Jeremiah 29",
+    "prev": "Jeremiah 28",
+    "next": "Jeremiah 30"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Je29.11",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jeremiah%2029%3A11&version=NASB1995"
+   },
+   "c1": 29,
+   "v1": 11,
+   "c2": 29,
+   "v2": 11,
+   "book": "JER"
+  },
+  {
+   "input": "Lam 3:22-23",
+   "query": "Lamentations 3:22-23",
+   "logos": "La3.22-23",
+   "isChapter": false,
+   "payload": {
+    "book": "LAM",
+    "bookName": "Lamentations",
+    "c1": 3,
+    "v1": 22,
+    "c2": 3,
+    "v2": 23,
+    "isChapter": false,
+    "query": "Lamentations 3:22-23",
+    "display": "Lamentations 3:22–23",
+    "chapterQuery": "Lamentations 3",
+    "prev": "Lamentations 2",
+    "next": "Lamentations 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.La3.22-23",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Lamentations%203%3A22-23&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 22,
+   "c2": 3,
+   "v2": 23,
+   "book": "LAM"
+  },
+  {
+   "input": "Hab 2:4",
+   "query": "Habakkuk 2:4",
+   "logos": "Hab2.4",
+   "isChapter": false,
+   "payload": {
+    "book": "HAB",
+    "bookName": "Habakkuk",
+    "c1": 2,
+    "v1": 4,
+    "c2": 2,
+    "v2": 4,
+    "isChapter": false,
+    "query": "Habakkuk 2:4",
+    "display": "Habakkuk 2:4",
+    "chapterQuery": "Habakkuk 2",
+    "prev": "Habakkuk 1",
+    "next": "Habakkuk 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Hab2.4",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Habakkuk%202%3A4&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 4,
+   "c2": 2,
+   "v2": 4,
+   "book": "HAB"
+  },
+  {
+   "input": "Zp 3:17",
+   "query": "Zephaniah 3:17",
+   "logos": "Zep3.17",
+   "isChapter": false,
+   "payload": {
+    "book": "ZEP",
+    "bookName": "Zephaniah",
+    "c1": 3,
+    "v1": 17,
+    "c2": 3,
+    "v2": 17,
+    "isChapter": false,
+    "query": "Zephaniah 3:17",
+    "display": "Zephaniah 3:17",
+    "chapterQuery": "Zephaniah 3",
+    "prev": "Zephaniah 2",
+    "next": "Haggai 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Zep3.17",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Zephaniah%203%3A17&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 17,
+   "c2": 3,
+   "v2": 17,
+   "book": "ZEP"
+  },
+  {
+   "input": "Hos 1",
+   "query": "Hosea 1",
+   "logos": "Ho1",
+   "isChapter": true,
+   "payload": {
+    "book": "HOS",
+    "bookName": "Hosea",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Hosea 1",
+    "display": "Hosea 1",
+    "chapterQuery": "Hosea 1",
+    "prev": "Daniel 12",
+    "next": "Hosea 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ho1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Hosea%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "HOS"
+  },
+  {
+   "input": "Jl 2:28",
+   "query": "Joel 2:28",
+   "logos": "Joe2.28",
+   "isChapter": false,
+   "payload": {
+    "book": "JOL",
+    "bookName": "Joel",
+    "c1": 2,
+    "v1": 28,
+    "c2": 2,
+    "v2": 28,
+    "isChapter": false,
+    "query": "Joel 2:28",
+    "display": "Joel 2:28",
+    "chapterQuery": "Joel 2",
+    "prev": "Joel 1",
+    "next": "Joel 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Joe2.28",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Joel%202%3A28&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 28,
+   "c2": 2,
+   "v2": 28,
+   "book": "JOL"
+  },
+  {
+   "input": "Am 5:24",
+   "query": "Amos 5:24",
+   "logos": "Am5.24",
+   "isChapter": false,
+   "payload": {
+    "book": "AMO",
+    "bookName": "Amos",
+    "c1": 5,
+    "v1": 24,
+    "c2": 5,
+    "v2": 24,
+    "isChapter": false,
+    "query": "Amos 5:24",
+    "display": "Amos 5:24",
+    "chapterQuery": "Amos 5",
+    "prev": "Amos 4",
+    "next": "Amos 6"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Am5.24",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Amos%205%3A24&version=NASB1995"
+   },
+   "c1": 5,
+   "v1": 24,
+   "c2": 5,
+   "v2": 24,
+   "book": "AMO"
+  },
+  {
+   "input": "Ob 1",
+   "query": "Obadiah 1",
+   "logos": "Ob1",
+   "isChapter": true,
+   "payload": {
+    "book": "OBA",
+    "bookName": "Obadiah",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Obadiah 1",
+    "display": "Obadiah 1",
+    "chapterQuery": "Obadiah 1",
+    "prev": "Amos 9",
+    "next": "Jonah 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ob1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Obadiah%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "OBA"
+  },
+  {
+   "input": "Ob 1:21",
+   "query": "Obadiah 1:21",
+   "logos": "Ob1.21",
+   "isChapter": false,
+   "payload": {
+    "book": "OBA",
+    "bookName": "Obadiah",
+    "c1": 1,
+    "v1": 21,
+    "c2": 1,
+    "v2": 21,
+    "isChapter": false,
+    "query": "Obadiah 1:21",
+    "display": "Obadiah 1:21",
+    "chapterQuery": "Obadiah 1",
+    "prev": "Amos 9",
+    "next": "Jonah 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ob1.21",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Obadiah%201%3A21&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 21,
+   "c2": 1,
+   "v2": 21,
+   "book": "OBA"
+  },
+  {
+   "input": "Ob 21",
+   "query": "Obadiah 1:21",
+   "logos": "Ob1.21",
+   "isChapter": false,
+   "payload": {
+    "book": "OBA",
+    "bookName": "Obadiah",
+    "c1": 1,
+    "v1": 21,
+    "c2": 1,
+    "v2": 21,
+    "isChapter": false,
+    "query": "Obadiah 1:21",
+    "display": "Obadiah 1:21",
+    "chapterQuery": "Obadiah 1",
+    "prev": "Amos 9",
+    "next": "Jonah 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ob1.21",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Obadiah%201%3A21&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 21,
+   "c2": 1,
+   "v2": 21,
+   "book": "OBA"
+  },
+  {
+   "input": "Ob 22",
+   "query": "Obadiah 1:22",
+   "logos": "Ob1.22",
+   "isChapter": false,
+   "payload": {
+    "book": "OBA",
+    "bookName": "Obadiah",
+    "c1": 1,
+    "v1": 22,
+    "c2": 1,
+    "v2": 22,
+    "isChapter": false,
+    "query": "Obadiah 1:22",
+    "display": "Obadiah 1:22",
+    "chapterQuery": "Obadiah 1",
+    "prev": "Amos 9",
+    "next": "Jonah 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ob1.22",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Obadiah%201%3A22&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 22,
+   "c2": 1,
+   "v2": 22,
+   "book": "OBA"
+  },
+  {
+   "input": "Jon 2",
+   "query": "Jonah 2",
+   "logos": "Jon2",
+   "isChapter": true,
+   "payload": {
+    "book": "JON",
+    "bookName": "Jonah",
+    "c1": 2,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "Jonah 2",
+    "display": "Jonah 2",
+    "chapterQuery": "Jonah 2",
+    "prev": "Jonah 1",
+    "next": "Jonah 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jon2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jonah%202&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "JON"
+  },
+  {
+   "input": "Jnh 1:17",
+   "query": "Jonah 1:17",
+   "logos": "Jon1.17",
+   "isChapter": false,
+   "payload": {
+    "book": "JON",
+    "bookName": "Jonah",
+    "c1": 1,
+    "v1": 17,
+    "c2": 1,
+    "v2": 17,
+    "isChapter": false,
+    "query": "Jonah 1:17",
+    "display": "Jonah 1:17",
+    "chapterQuery": "Jonah 1",
+    "prev": "Obadiah 1",
+    "next": "Jonah 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jon1.17",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jonah%201%3A17&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 17,
+   "c2": 1,
+   "v2": 17,
+   "book": "JON"
+  },
+  {
+   "input": "Mc 6:8",
+   "query": "Micah 6:8",
+   "logos": "Mic6.8",
+   "isChapter": false,
+   "payload": {
+    "book": "MIC",
+    "bookName": "Micah",
+    "c1": 6,
+    "v1": 8,
+    "c2": 6,
+    "v2": 8,
+    "isChapter": false,
+    "query": "Micah 6:8",
+    "display": "Micah 6:8",
+    "chapterQuery": "Micah 6",
+    "prev": "Micah 5",
+    "next": "Micah 7"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mic6.8",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Micah%206%3A8&version=NASB1995"
+   },
+   "c1": 6,
+   "v1": 8,
+   "c2": 6,
+   "v2": 8,
+   "book": "MIC"
+  },
+  {
+   "input": "Na 1:7",
+   "query": "Nahum 1:7",
+   "logos": "Na1.7",
+   "isChapter": false,
+   "payload": {
+    "book": "NAM",
+    "bookName": "Nahum",
+    "c1": 1,
+    "v1": 7,
+    "c2": 1,
+    "v2": 7,
+    "isChapter": false,
+    "query": "Nahum 1:7",
+    "display": "Nahum 1:7",
+    "chapterQuery": "Nahum 1",
+    "prev": "Micah 7",
+    "next": "Nahum 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Na1.7",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Nahum%201%3A7&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 7,
+   "c2": 1,
+   "v2": 7,
+   "book": "NAM"
+  },
+  {
+   "input": "Hg 2",
+   "query": "Haggai 2",
+   "logos": "Hag2",
+   "isChapter": true,
+   "payload": {
+    "book": "HAG",
+    "bookName": "Haggai",
+    "c1": 2,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "Haggai 2",
+    "display": "Haggai 2",
+    "chapterQuery": "Haggai 2",
+    "prev": "Haggai 1",
+    "next": "Zechariah 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Hag2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Haggai%202&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "HAG"
+  },
+  {
+   "input": "Zc 9:9",
+   "query": "Zechariah 9:9",
+   "logos": "Zec9.9",
+   "isChapter": false,
+   "payload": {
+    "book": "ZEC",
+    "bookName": "Zechariah",
+    "c1": 9,
+    "v1": 9,
+    "c2": 9,
+    "v2": 9,
+    "isChapter": false,
+    "query": "Zechariah 9:9",
+    "display": "Zechariah 9:9",
+    "chapterQuery": "Zechariah 9",
+    "prev": "Zechariah 8",
+    "next": "Zechariah 10"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Zec9.9",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Zechariah%209%3A9&version=NASB1995"
+   },
+   "c1": 9,
+   "v1": 9,
+   "c2": 9,
+   "v2": 9,
+   "book": "ZEC"
+  },
+  {
+   "input": "Ml 3:10",
+   "query": "Malachi 3:10",
+   "logos": "Mal3.10",
+   "isChapter": false,
+   "payload": {
+    "book": "MAL",
+    "bookName": "Malachi",
+    "c1": 3,
+    "v1": 10,
+    "c2": 3,
+    "v2": 10,
+    "isChapter": false,
+    "query": "Malachi 3:10",
+    "display": "Malachi 3:10",
+    "chapterQuery": "Malachi 3",
+    "prev": "Malachi 2",
+    "next": "Malachi 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mal3.10",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Malachi%203%3A10&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 10,
+   "c2": 3,
+   "v2": 10,
+   "book": "MAL"
+  },
+  {
+   "input": "Mr 1",
+   "query": "Mark 1",
+   "logos": "Mk1",
+   "isChapter": true,
+   "payload": {
+    "book": "MRK",
+    "bookName": "Mark",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Mark 1",
+    "display": "Mark 1",
+    "chapterQuery": "Mark 1",
+    "prev": "Matthew 28",
+    "next": "Mark 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Mk1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Mark%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "MRK"
+  },
+  {
+   "input": "Lu 1",
+   "query": "Luke 1",
+   "logos": "Lk1",
+   "isChapter": true,
+   "payload": {
+    "book": "LUK",
+    "bookName": "Luke",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Luke 1",
+    "display": "Luke 1",
+    "chapterQuery": "Luke 1",
+    "prev": "Mark 16",
+    "next": "Luke 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Lk1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Luke%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "LUK"
+  },
+  {
+   "input": "Jhn 1",
+   "query": "John 1",
+   "logos": "Jn1",
+   "isChapter": true,
+   "payload": {
+    "book": "JHN",
+    "bookName": "John",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "John 1",
+    "display": "John 1",
+    "chapterQuery": "John 1",
+    "prev": "Luke 24",
+    "next": "John 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jn1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=John%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "JHN"
+  },
+  {
+   "input": "Ga 5:22",
+   "query": "Galatians 5:22",
+   "logos": "Ga5.22",
+   "isChapter": false,
+   "payload": {
+    "book": "GAL",
+    "bookName": "Galatians",
+    "c1": 5,
+    "v1": 22,
+    "c2": 5,
+    "v2": 22,
+    "isChapter": false,
+    "query": "Galatians 5:22",
+    "display": "Galatians 5:22",
+    "chapterQuery": "Galatians 5",
+    "prev": "Galatians 4",
+    "next": "Galatians 6"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ga5.22",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Galatians%205%3A22&version=NASB1995"
+   },
+   "c1": 5,
+   "v1": 22,
+   "c2": 5,
+   "v2": 22,
+   "book": "GAL"
+  },
+  {
+   "input": "Ephes 2:8",
+   "query": "Ephesians 2:8",
+   "logos": "Eph2.8",
+   "isChapter": false,
+   "payload": {
+    "book": "EPH",
+    "bookName": "Ephesians",
+    "c1": 2,
+    "v1": 8,
+    "c2": 2,
+    "v2": 8,
+    "isChapter": false,
+    "query": "Ephesians 2:8",
+    "display": "Ephesians 2:8",
+    "chapterQuery": "Ephesians 2",
+    "prev": "Ephesians 1",
+    "next": "Ephesians 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Eph2.8",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Ephesians%202%3A8&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 8,
+   "c2": 2,
+   "v2": 8,
+   "book": "EPH"
+  },
+  {
+   "input": "Pp 4",
+   "query": "Philippians 4",
+   "logos": "Php4",
+   "isChapter": true,
+   "payload": {
+    "book": "PHP",
+    "bookName": "Philippians",
+    "c1": 4,
+    "v1": null,
+    "c2": 4,
+    "v2": null,
+    "isChapter": true,
+    "query": "Philippians 4",
+    "display": "Philippians 4",
+    "chapterQuery": "Philippians 4",
+    "prev": "Philippians 3",
+    "next": "Colossians 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Php4",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philippians%204&version=NASB1995"
+   },
+   "c1": 4,
+   "v1": null,
+   "c2": 4,
+   "v2": null,
+   "book": "PHP"
+  },
+  {
+   "input": "Tt 2",
+   "error": "Couldn’t find a book called “Tt”."
+  },
+  {
+   "input": "Ti 2",
+   "query": "Titus 2",
+   "logos": "Tt2",
+   "isChapter": true,
+   "payload": {
+    "book": "TIT",
+    "bookName": "Titus",
+    "c1": 2,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "Titus 2",
+    "display": "Titus 2",
+    "chapterQuery": "Titus 2",
+    "prev": "Titus 1",
+    "next": "Titus 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Tt2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Titus%202&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "TIT"
+  },
+  {
+   "input": "Philem 1:6",
+   "query": "Philemon 1:6",
+   "logos": "Phm1.6",
+   "isChapter": false,
+   "payload": {
+    "book": "PHM",
+    "bookName": "Philemon",
+    "c1": 1,
+    "v1": 6,
+    "c2": 1,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Philemon 1:6",
+    "display": "Philemon 1:6",
+    "chapterQuery": "Philemon 1",
+    "prev": "Titus 3",
+    "next": "Hebrews 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Phm1.6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philemon%201%3A6&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 6,
+   "c2": 1,
+   "v2": 6,
+   "book": "PHM"
+  },
+  {
+   "input": "Phile 6",
+   "query": "Philemon 1:6",
+   "logos": "Phm1.6",
+   "isChapter": false,
+   "payload": {
+    "book": "PHM",
+    "bookName": "Philemon",
+    "c1": 1,
+    "v1": 6,
+    "c2": 1,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Philemon 1:6",
+    "display": "Philemon 1:6",
+    "chapterQuery": "Philemon 1",
+    "prev": "Titus 3",
+    "next": "Hebrews 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Phm1.6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Philemon%201%3A6&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 6,
+   "c2": 1,
+   "v2": 6,
+   "book": "PHM"
+  },
+  {
+   "input": "1 Pt 5:7",
+   "query": "1 Peter 5:7",
+   "logos": "1Pe5.7",
+   "isChapter": false,
+   "payload": {
+    "book": "1PE",
+    "bookName": "1 Peter",
+    "c1": 5,
+    "v1": 7,
+    "c2": 5,
+    "v2": 7,
+    "isChapter": false,
+    "query": "1 Peter 5:7",
+    "display": "1 Peter 5:7",
+    "chapterQuery": "1 Peter 5",
+    "prev": "1 Peter 4",
+    "next": "2 Peter 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Pe5.7",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Peter%205%3A7&version=NASB1995"
+   },
+   "c1": 5,
+   "v1": 7,
+   "c2": 5,
+   "v2": 7,
+   "book": "1PE"
+  },
+  {
+   "input": "2 P 1",
+   "query": "2 Peter 1",
+   "logos": "2Pe1",
+   "isChapter": true,
+   "payload": {
+    "book": "2PE",
+    "bookName": "2 Peter",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "2 Peter 1",
+    "display": "2 Peter 1",
+    "chapterQuery": "2 Peter 1",
+    "prev": "1 Peter 5",
+    "next": "2 Peter 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Pe1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20Peter%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "2PE"
+  },
+  {
+   "input": "1 J 4:8",
+   "query": "1 John 4:8",
+   "logos": "1Jn4.8",
+   "isChapter": false,
+   "payload": {
+    "book": "1JN",
+    "bookName": "1 John",
+    "c1": 4,
+    "v1": 8,
+    "c2": 4,
+    "v2": 8,
+    "isChapter": false,
+    "query": "1 John 4:8",
+    "display": "1 John 4:8",
+    "chapterQuery": "1 John 4",
+    "prev": "1 John 3",
+    "next": "1 John 5"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Jn4.8",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20John%204%3A8&version=NASB1995"
+   },
+   "c1": 4,
+   "v1": 8,
+   "c2": 4,
+   "v2": 8,
+   "book": "1JN"
+  },
+  {
+   "input": "3 J 1",
+   "query": "3 John 1",
+   "logos": "3Jn1",
+   "isChapter": true,
+   "payload": {
+    "book": "3JN",
+    "bookName": "3 John",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "3 John 1",
+    "display": "3 John 1",
+    "chapterQuery": "3 John 1",
+    "prev": "2 John 1",
+    "next": "Jude 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.3Jn1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=3%20John%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "3JN"
+  },
+  {
+   "input": "Jd 24",
+   "query": "Jude 1:24",
+   "logos": "Jud1.24",
+   "isChapter": false,
+   "payload": {
+    "book": "JUD",
+    "bookName": "Jude",
+    "c1": 1,
+    "v1": 24,
+    "c2": 1,
+    "v2": 24,
+    "isChapter": false,
+    "query": "Jude 1:24",
+    "display": "Jude 1:24",
+    "chapterQuery": "Jude 1",
+    "prev": "3 John 1",
+    "next": "Revelation 1"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Jud1.24",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Jude%201%3A24&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": 24,
+   "c2": 1,
+   "v2": 24,
+   "book": "JUD"
+  },
+  {
+   "input": "Rv 21",
+   "query": "Revelation 21",
+   "logos": "Re21",
+   "isChapter": true,
+   "payload": {
+    "book": "REV",
+    "bookName": "Revelation",
+    "c1": 21,
+    "v1": null,
+    "c2": 21,
+    "v2": null,
+    "isChapter": true,
+    "query": "Revelation 21",
+    "display": "Revelation 21",
+    "chapterQuery": "Revelation 21",
+    "prev": "Revelation 20",
+    "next": "Revelation 22"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Re21",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Revelation%2021&version=NASB1995"
+   },
+   "c1": 21,
+   "v1": null,
+   "c2": 21,
+   "v2": null,
+   "book": "REV"
+  },
+  {
+   "input": "1s 17",
+   "query": "1 Samuel 17",
+   "logos": "1Sa17",
+   "isChapter": true,
+   "payload": {
+    "book": "1SA",
+    "bookName": "1 Samuel",
+    "c1": 17,
+    "v1": null,
+    "c2": 17,
+    "v2": null,
+    "isChapter": true,
+    "query": "1 Samuel 17",
+    "display": "1 Samuel 17",
+    "chapterQuery": "1 Samuel 17",
+    "prev": "1 Samuel 16",
+    "next": "1 Samuel 18"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Sa17",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Samuel%2017&version=NASB1995"
+   },
+   "c1": 17,
+   "v1": null,
+   "c2": 17,
+   "v2": null,
+   "book": "1SA"
+  },
+  {
+   "input": "2 s 7",
+   "query": "2 Samuel 7",
+   "logos": "2Sa7",
+   "isChapter": true,
+   "payload": {
+    "book": "2SA",
+    "bookName": "2 Samuel",
+    "c1": 7,
+    "v1": null,
+    "c2": 7,
+    "v2": null,
+    "isChapter": true,
+    "query": "2 Samuel 7",
+    "display": "2 Samuel 7",
+    "chapterQuery": "2 Samuel 7",
+    "prev": "2 Samuel 6",
+    "next": "2 Samuel 8"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Sa7",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20Samuel%207&version=NASB1995"
+   },
+   "c1": 7,
+   "v1": null,
+   "c2": 7,
+   "v2": null,
+   "book": "2SA"
+  },
+  {
+   "input": "1 K 18",
+   "query": "1 Kings 18",
+   "logos": "1Ki18",
+   "isChapter": true,
+   "payload": {
+    "book": "1KI",
+    "bookName": "1 Kings",
+    "c1": 18,
+    "v1": null,
+    "c2": 18,
+    "v2": null,
+    "isChapter": true,
+    "query": "1 Kings 18",
+    "display": "1 Kings 18",
+    "chapterQuery": "1 Kings 18",
+    "prev": "1 Kings 17",
+    "next": "1 Kings 19"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Ki18",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Kings%2018&version=NASB1995"
+   },
+   "c1": 18,
+   "v1": null,
+   "c2": 18,
+   "v2": null,
+   "book": "1KI"
+  },
+  {
+   "input": "2k 2",
+   "query": "2 Kings 2",
+   "logos": "2Ki2",
+   "isChapter": true,
+   "payload": {
+    "book": "2KI",
+    "bookName": "2 Kings",
+    "c1": 2,
+    "v1": null,
+    "c2": 2,
+    "v2": null,
+    "isChapter": true,
+    "query": "2 Kings 2",
+    "display": "2 Kings 2",
+    "chapterQuery": "2 Kings 2",
+    "prev": "2 Kings 1",
+    "next": "2 Kings 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.2Ki2",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=2%20Kings%202&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": null,
+   "c2": 2,
+   "v2": null,
+   "book": "2KI"
+  },
+  {
+   "input": "1chron 16",
+   "query": "1 Chronicles 16",
+   "logos": "1Ch16",
+   "isChapter": true,
+   "payload": {
+    "book": "1CH",
+    "bookName": "1 Chronicles",
+    "c1": 16,
+    "v1": null,
+    "c2": 16,
+    "v2": null,
+    "isChapter": true,
+    "query": "1 Chronicles 16",
+    "display": "1 Chronicles 16",
+    "chapterQuery": "1 Chronicles 16",
+    "prev": "1 Chronicles 15",
+    "next": "1 Chronicles 17"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.1Ch16",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=1%20Chronicles%2016&version=NASB1995"
+   },
+   "c1": 16,
+   "v1": null,
+   "c2": 16,
+   "v2": null,
+   "book": "1CH"
+  },
+  {
+   "input": "Esth 4:14",
+   "query": "Esther 4:14",
+   "logos": "Es4.14",
+   "isChapter": false,
+   "payload": {
+    "book": "EST",
+    "bookName": "Esther",
+    "c1": 4,
+    "v1": 14,
+    "c2": 4,
+    "v2": 14,
+    "isChapter": false,
+    "query": "Esther 4:14",
+    "display": "Esther 4:14",
+    "chapterQuery": "Esther 4",
+    "prev": "Esther 3",
+    "next": "Esther 5"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Es4.14",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Esther%204%3A14&version=NASB1995"
+   },
+   "c1": 4,
+   "v1": 14,
+   "c2": 4,
+   "v2": 14,
+   "book": "EST"
+  },
+  {
+   "input": "Jb 1",
+   "query": "Job 1",
+   "logos": "Job1",
+   "isChapter": true,
+   "payload": {
+    "book": "JOB",
+    "bookName": "Job",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Job 1",
+    "display": "Job 1",
+    "chapterQuery": "Job 1",
+    "prev": "Esther 10",
+    "next": "Job 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Job1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Job%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "JOB"
+  },
+  {
+   "input": "Prv 3:5-6",
+   "query": "Proverbs 3:5-6",
+   "logos": "Pr3.5-6",
+   "isChapter": false,
+   "payload": {
+    "book": "PRO",
+    "bookName": "Proverbs",
+    "c1": 3,
+    "v1": 5,
+    "c2": 3,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Proverbs 3:5-6",
+    "display": "Proverbs 3:5–6",
+    "chapterQuery": "Proverbs 3",
+    "prev": "Proverbs 2",
+    "next": "Proverbs 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Pr3.5-6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Proverbs%203%3A5-6&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": 5,
+   "c2": 3,
+   "v2": 6,
+   "book": "PRO"
+  },
+  {
+   "input": "Eccles 3",
+   "query": "Ecclesiastes 3",
+   "logos": "Ec3",
+   "isChapter": true,
+   "payload": {
+    "book": "ECC",
+    "bookName": "Ecclesiastes",
+    "c1": 3,
+    "v1": null,
+    "c2": 3,
+    "v2": null,
+    "isChapter": true,
+    "query": "Ecclesiastes 3",
+    "display": "Ecclesiastes 3",
+    "chapterQuery": "Ecclesiastes 3",
+    "prev": "Ecclesiastes 2",
+    "next": "Ecclesiastes 4"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Ec3",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Ecclesiastes%203&version=NASB1995"
+   },
+   "c1": 3,
+   "v1": null,
+   "c2": 3,
+   "v2": null,
+   "book": "ECC"
+  },
+  {
+   "input": "Sos 2:4",
+   "query": "Song of Songs 2:4",
+   "logos": "So2.4",
+   "isChapter": false,
+   "payload": {
+    "book": "SNG",
+    "bookName": "Song of Songs",
+    "c1": 2,
+    "v1": 4,
+    "c2": 2,
+    "v2": 4,
+    "isChapter": false,
+    "query": "Song of Songs 2:4",
+    "display": "Song of Songs 2:4",
+    "chapterQuery": "Song of Songs 2",
+    "prev": "Song of Songs 1",
+    "next": "Song of Songs 3"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.So2.4",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Song%20of%20Songs%202%3A4&version=NASB1995"
+   },
+   "c1": 2,
+   "v1": 4,
+   "c2": 2,
+   "v2": 4,
+   "book": "SNG"
+  },
+  {
+   "input": "Ss 1",
+   "query": "Song of Songs 1",
+   "logos": "So1",
+   "isChapter": true,
+   "payload": {
+    "book": "SNG",
+    "bookName": "Song of Songs",
+    "c1": 1,
+    "v1": null,
+    "c2": 1,
+    "v2": null,
+    "isChapter": true,
+    "query": "Song of Songs 1",
+    "display": "Song of Songs 1",
+    "chapterQuery": "Song of Songs 1",
+    "prev": "Ecclesiastes 12",
+    "next": "Song of Songs 2"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.So1",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Song%20of%20Songs%201&version=NASB1995"
+   },
+   "c1": 1,
+   "v1": null,
+   "c2": 1,
+   "v2": null,
+   "book": "SNG"
+  },
+  {
+   "input": "Isaiah 9:6-7; John 1:14",
+   "error": "Couldn’t find a book called “Isaiah 9:6-7; John”."
+  },
+  {
+   "input": "James 1:5; John 3:16-18",
+   "error": "Couldn’t find a book called “James 1:5; John”."
+  },
+  {
+   "input": "John 3:16; 4:2",
+   "error": "Couldn’t find a book called “John 3:16;”."
+  },
+  {
+   "input": "John 3:16; 17",
+   "error": "Couldn’t find a book called “John 3:16;”."
+  },
+  {
+   "input": "John 3:16; 1 John 1:9; 2:1",
+   "error": "Couldn’t find a book called “John 3:16; 1 John 1:9;”."
+  },
+  {
+   "input": "Hezekiah 1; Ps 23;;",
+   "error": "Couldn’t find a book called “Hezekiah 1; Ps 23;;”."
+  },
+  {
+   "input": " ; ",
+   "error": "Couldn’t understand “;”. Try something like John 3:16."
+  },
+  {
+   "input": "Ps 23; 24; 25:1-3",
+   "error": "Couldn’t find a book called “Ps 23; 24;”."
+  },
+  {
+   "input": "Jude 5; 7",
+   "error": "Couldn’t find a book called “Jude 5;”."
+  },
+  {
+   "input": "Jn 3:16; 3:17-4:1; x",
+   "error": "Couldn’t find a book called “Jn 3:16; 3:17-4:1; x”."
+  },
+  {
+   "input": "1 Cor 13; 2 Cor 5:17",
+   "error": "Couldn’t find a book called “1 Cor 13; 2 Cor”."
+  },
+  {
+   "input": "a;b;c",
+   "error": "Couldn’t find a book called “a;b;c”."
+  },
+  {
+   "input": "Gen 1;Gen 2;Gen 3;Gen 4;Gen 5;Gen 6;Gen 7;Gen 8;Gen 9;Gen 10;Gen 11;Gen 12;Gen 13;Gen 14;Gen 15",
+   "error": "Couldn’t find a book called “Gen 1;Gen 2;Gen 3;Gen 4;Gen 5;Gen 6;Gen 7;Gen 8;Gen 9;Gen 10;Gen 11;Gen 12;Gen 13;Gen 14;Gen”."
+  }
+ ],
+ "split": [
+  {
+   "input": "Isaiah 9:6-7; John 1:14",
+   "parts": [
+    {
+     "input": "Isaiah 9:6-7",
+     "query": "Isaiah 9:6-7"
+    },
+    {
+     "input": "John 1:14",
+     "query": "John 1:14"
+    }
+   ]
+  },
+  {
+   "input": "James 1:5; John 3:16-18",
+   "parts": [
+    {
+     "input": "James 1:5",
+     "query": "James 1:5"
+    },
+    {
+     "input": "John 3:16-18",
+     "query": "John 3:16-18"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16; 4:2",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "4:2",
+     "query": "John 4:2"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16; 17",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "17",
+     "query": "John 17"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16; 1 John 1:9; 2:1",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "1 John 1:9",
+     "query": "1 John 1:9"
+    },
+    {
+     "input": "2:1",
+     "query": "1 John 2:1"
+    }
+   ]
+  },
+  {
+   "input": "Hezekiah 1; Ps 23;;",
+   "parts": [
+    {
+     "input": "Hezekiah 1",
+     "error": "Couldn’t find a book called “Hezekiah”."
+    },
+    {
+     "input": "Ps 23",
+     "query": "Psalm 23"
+    }
+   ]
+  },
+  {
+   "input": " ; ",
+   "parts": []
+  },
+  {
+   "input": "Ps 23; 24; 25:1-3",
+   "parts": [
+    {
+     "input": "Ps 23",
+     "query": "Psalm 23"
+    },
+    {
+     "input": "24",
+     "query": "Psalm 24"
+    },
+    {
+     "input": "25:1-3",
+     "query": "Psalm 25:1-3"
+    }
+   ]
+  },
+  {
+   "input": "Jude 5; 7",
+   "parts": [
+    {
+     "input": "Jude 5",
+     "query": "Jude 1:5"
+    },
+    {
+     "input": "7",
+     "query": "Jude 1:7"
+    }
+   ]
+  },
+  {
+   "input": "Jn 3:16; 3:17-4:1; x",
+   "parts": [
+    {
+     "input": "Jn 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "3:17-4:1",
+     "query": "John 3:17-4:1"
+    },
+    {
+     "input": "x",
+     "error": "Couldn’t find a book called “x”."
+    }
+   ]
+  },
+  {
+   "input": "1 Cor 13; 2 Cor 5:17",
+   "parts": [
+    {
+     "input": "1 Cor 13",
+     "query": "1 Corinthians 13"
+    },
+    {
+     "input": "2 Cor 5:17",
+     "query": "2 Corinthians 5:17"
+    }
+   ]
+  },
+  {
+   "input": "a;b;c",
+   "parts": [
+    {
+     "input": "a",
+     "query": "Amos 1"
+    },
+    {
+     "input": "b",
+     "error": "Couldn’t find a book called “b”."
+    },
+    {
+     "input": "c",
+     "query": "Colossians 1"
+    }
+   ]
+  },
+  {
+   "input": "Gen 1;Gen 2;Gen 3;Gen 4;Gen 5;Gen 6;Gen 7;Gen 8;Gen 9;Gen 10;Gen 11;Gen 12;Gen 13;Gen 14;Gen 15",
+   "parts": [
+    {
+     "input": "Gen 1",
+     "query": "Genesis 1"
+    },
+    {
+     "input": "Gen 2",
+     "query": "Genesis 2"
+    },
+    {
+     "input": "Gen 3",
+     "query": "Genesis 3"
+    },
+    {
+     "input": "Gen 4",
+     "query": "Genesis 4"
+    },
+    {
+     "input": "Gen 5",
+     "query": "Genesis 5"
+    },
+    {
+     "input": "Gen 6",
+     "query": "Genesis 6"
+    },
+    {
+     "input": "Gen 7",
+     "query": "Genesis 7"
+    },
+    {
+     "input": "Gen 8",
+     "query": "Genesis 8"
+    },
+    {
+     "input": "Gen 9",
+     "query": "Genesis 9"
+    },
+    {
+     "input": "Gen 10",
+     "query": "Genesis 10"
+    },
+    {
+     "input": "Gen 11",
+     "query": "Genesis 11"
+    },
+    {
+     "input": "Gen 12",
+     "query": "Genesis 12"
+    }
+   ]
+  }
+ ],
+ "findBook": {
+  "Genesis": "GEN",
+  "GEN": "GEN",
+  "gen": "GEN",
+  "ge": "GEN",
+  "gn": "GEN",
+  "Gen": "GEN",
+  "Gene": "GEN",
+  "genesis": "GEN",
+  "GENESIS": "GEN",
+  "Exodus": "EXO",
+  "EXO": "EXO",
+  "exo": "EXO",
+  "ex": "EXO",
+  "exod": "EXO",
+  "Exo": "EXO",
+  "Exod": "EXO",
+  "exodus": "EXO",
+  "EXODUS": "EXO",
+  "Leviticus": "LEV",
+  "LEV": "LEV",
+  "lev": "LEV",
+  "le": "LEV",
+  "lv": "LEV",
+  "Lev": "LEV",
+  "Levi": "LEV",
+  "leviticus": "LEV",
+  "LEVITICUS": "LEV",
+  "Numbers": "NUM",
+  "NUM": "NUM",
+  "num": "NUM",
+  "nu": "NUM",
+  "nm": "NUM",
+  "nb": "NUM",
+  "Num": "NUM",
+  "Numb": "NUM",
+  "numbers": "NUM",
+  "NUMBERS": "NUM",
+  "Deuteronomy": "DEU",
+  "DEU": "DEU",
+  "deut": "DEU",
+  "deu": "DEU",
+  "de": "DEU",
+  "dt": "DEU",
+  "Deu": "DEU",
+  "Deut": "DEU",
+  "deuteronomy": "DEU",
+  "DEUTERONOMY": "DEU",
+  "Joshua": "JOS",
+  "JOS": "JOS",
+  "josh": "JOS",
+  "jos": "JOS",
+  "jsh": "JOS",
+  "Jos": "JOS",
+  "Josh": "JOS",
+  "joshua": "JOS",
+  "JOSHUA": "JOS",
+  "Judges": "JDG",
+  "JDG": "JDG",
+  "judg": "JDG",
+  "jdg": "JDG",
+  "jg": "JDG",
+  "jdgs": "JDG",
+  "Jud": "JUD",
+  "Judg": "JDG",
+  "judges": "JDG",
+  "JUDGES": "JDG",
+  "Ruth": "RUT",
+  "RUT": "RUT",
+  "rth": "RUT",
+  "ru": "RUT",
+  "rut": "RUT",
+  "Rut": "RUT",
+  "ruth": "RUT",
+  "RUTH": "RUT",
+  "1 Samuel": "1SA",
+  "1SA": "1SA",
+  "1sam": "1SA",
+  "1sa": "1SA",
+  "1sm": "1SA",
+  "1s": "1SA",
+  "1 S": "1SA",
+  "1 Sa": "1SA",
+  "1 samuel": "1SA",
+  "1 SAMUEL": "1SA",
+  "2 Samuel": "2SA",
+  "2SA": "2SA",
+  "2sam": "2SA",
+  "2sa": "2SA",
+  "2sm": "2SA",
+  "2s": "2SA",
+  "2 S": "2SA",
+  "2 Sa": "2SA",
+  "2 samuel": "2SA",
+  "2 SAMUEL": "2SA",
+  "1 Kings": "1KI",
+  "1KI": "1KI",
+  "1kgs": "1KI",
+  "1ki": "1KI",
+  "1kg": "1KI",
+  "1k": "1KI",
+  "1 K": "1KI",
+  "1 Ki": "1KI",
+  "1 kings": "1KI",
+  "1 KINGS": "1KI",
+  "2 Kings": "2KI",
+  "2KI": "2KI",
+  "2kgs": "2KI",
+  "2ki": "2KI",
+  "2kg": "2KI",
+  "2k": "2KI",
+  "2 K": "2KI",
+  "2 Ki": "2KI",
+  "2 kings": "2KI",
+  "2 KINGS": "2KI",
+  "1 Chronicles": "1CH",
+  "1CH": "1CH",
+  "1chr": "1CH",
+  "1ch": "1CH",
+  "1chron": "1CH",
+  "1 C": "1CH",
+  "1 Ch": "1CH",
+  "1 chronicles": "1CH",
+  "1 CHRONICLES": "1CH",
+  "2 Chronicles": "2CH",
+  "2CH": "2CH",
+  "2chr": "2CH",
+  "2ch": "2CH",
+  "2chron": "2CH",
+  "2 C": "2CH",
+  "2 Ch": "2CH",
+  "2 chronicles": "2CH",
+  "2 CHRONICLES": "2CH",
+  "Ezra": "EZR",
+  "EZR": "EZR",
+  "ezr": "EZR",
+  "Ezr": "EZR",
+  "ezra": "EZR",
+  "EZRA": "EZR",
+  "Nehemiah": "NEH",
+  "NEH": "NEH",
+  "neh": "NEH",
+  "ne": "NEH",
+  "Neh": "NEH",
+  "Nehe": "NEH",
+  "nehemiah": "NEH",
+  "NEHEMIAH": "NEH",
+  "Esther": "EST",
+  "EST": "EST",
+  "esth": "EST",
+  "est": "EST",
+  "es": "EST",
+  "Est": "EST",
+  "Esth": "EST",
+  "esther": "EST",
+  "ESTHER": "EST",
+  "Job": "JOB",
+  "JOB": "JOB",
+  "jb": "JOB",
+  "job": "JOB",
+  "Psalms": "PSA",
+  "PSA": "PSA",
+  "ps": "PSA",
+  "psa": "PSA",
+  "psalm": "PSA",
+  "pss": "PSA",
+  "psm": "PSA",
+  "pslm": "PSA",
+  "Psa": "PSA",
+  "Psal": "PSA",
+  "psalms": "PSA",
+  "PSALMS": "PSA",
+  "Proverbs": "PRO",
+  "PRO": "PRO",
+  "prov": "PRO",
+  "pro": "PRO",
+  "pr": "PRO",
+  "prv": "PRO",
+  "Pro": "PRO",
+  "Prov": "PRO",
+  "proverbs": "PRO",
+  "PROVERBS": "PRO",
+  "Ecclesiastes": "ECC",
+  "ECC": "ECC",
+  "eccl": "ECC",
+  "ecc": "ECC",
+  "ec": "ECC",
+  "eccles": "ECC",
+  "qoh": "ECC",
+  "Ecc": "ECC",
+  "Eccl": "ECC",
+  "ecclesiastes": "ECC",
+  "ECCLESIASTES": "ECC",
+  "Song of Songs": "SNG",
+  "SNG": "SNG",
+  "song": "SNG",
+  "sng": "SNG",
+  "sos": "SNG",
+  "ss": "SNG",
+  "songofsolomon": "SNG",
+  "canticles": "SNG",
+  "cant": "SNG",
+  "Son": "SNG",
+  "Song": "SNG",
+  "song of songs": "SNG",
+  "SONG OF SONGS": "SNG",
+  "Isaiah": "ISA",
+  "ISA": "ISA",
+  "isa": "ISA",
+  "is": "ISA",
+  "Isa": "ISA",
+  "Isai": "ISA",
+  "isaiah": "ISA",
+  "ISAIAH": "ISA",
+  "Jeremiah": "JER",
+  "JER": "JER",
+  "jer": "JER",
+  "je": "JER",
+  "jr": "JER",
+  "Jer": "JER",
+  "Jere": "JER",
+  "jeremiah": "JER",
+  "JEREMIAH": "JER",
+  "Lamentations": "LAM",
+  "LAM": "LAM",
+  "lam": "LAM",
+  "la": "LAM",
+  "Lam": "LAM",
+  "Lame": "LAM",
+  "lamentations": "LAM",
+  "LAMENTATIONS": "LAM",
+  "Ezekiel": "EZK",
+  "EZK": "EZK",
+  "ezek": "EZK",
+  "eze": "EZK",
+  "ezk": "EZK",
+  "Eze": "EZK",
+  "Ezek": "EZK",
+  "ezekiel": "EZK",
+  "EZEKIEL": "EZK",
+  "Daniel": "DAN",
+  "DAN": "DAN",
+  "dan": "DAN",
+  "da": "DAN",
+  "dn": "DAN",
+  "Dan": "DAN",
+  "Dani": "DAN",
+  "daniel": "DAN",
+  "DANIEL": "DAN",
+  "Hosea": "HOS",
+  "HOS": "HOS",
+  "hos": "HOS",
+  "ho": "HOS",
+  "Hos": "HOS",
+  "Hose": "HOS",
+  "hosea": "HOS",
+  "HOSEA": "HOS",
+  "Joel": "JOL",
+  "JOL": "JOL",
+  "joe": "JOL",
+  "jl": "JOL",
+  "Joe": "JOL",
+  "joel": "JOL",
+  "JOEL": "JOL",
+  "Amos": "AMO",
+  "AMO": "AMO",
+  "am": "AMO",
+  "amo": "AMO",
+  "Amo": "AMO",
+  "amos": "AMO",
+  "AMOS": "AMO",
+  "Obadiah": "OBA",
+  "OBA": "OBA",
+  "obad": "OBA",
+  "ob": "OBA",
+  "oba": "OBA",
+  "Oba": "OBA",
+  "Obad": "OBA",
+  "obadiah": "OBA",
+  "OBADIAH": "OBA",
+  "Jonah": "JON",
+  "JON": "JON",
+  "jon": "JON",
+  "jnh": "JON",
+  "Jon": "JON",
+  "Jona": "JON",
+  "jonah": "JON",
+  "JONAH": "JON",
+  "Micah": "MIC",
+  "MIC": "MIC",
+  "mic": "MIC",
+  "mc": "MIC",
+  "Mic": "MIC",
+  "Mica": "MIC",
+  "micah": "MIC",
+  "MICAH": "MIC",
+  "Nahum": "NAM",
+  "NAM": "NAM",
+  "nah": "NAM",
+  "na": "NAM",
+  "Nah": "NAM",
+  "Nahu": "NAM",
+  "nahum": "NAM",
+  "NAHUM": "NAM",
+  "Habakkuk": "HAB",
+  "HAB": "HAB",
+  "hab": "HAB",
+  "hb": "HAB",
+  "Hab": "HAB",
+  "Haba": "HAB",
+  "habakkuk": "HAB",
+  "HABAKKUK": "HAB",
+  "Zephaniah": "ZEP",
+  "ZEP": "ZEP",
+  "zeph": "ZEP",
+  "zep": "ZEP",
+  "zp": "ZEP",
+  "Zep": "ZEP",
+  "Zeph": "ZEP",
+  "zephaniah": "ZEP",
+  "ZEPHANIAH": "ZEP",
+  "Haggai": "HAG",
+  "HAG": "HAG",
+  "hag": "HAG",
+  "hg": "HAG",
+  "Hag": "HAG",
+  "Hagg": "HAG",
+  "haggai": "HAG",
+  "HAGGAI": "HAG",
+  "Zechariah": "ZEC",
+  "ZEC": "ZEC",
+  "zech": "ZEC",
+  "zec": "ZEC",
+  "zc": "ZEC",
+  "Zec": "ZEC",
+  "Zech": "ZEC",
+  "zechariah": "ZEC",
+  "ZECHARIAH": "ZEC",
+  "Malachi": "MAL",
+  "MAL": "MAL",
+  "mal": "MAL",
+  "ml": "MAL",
+  "Mal": "MAL",
+  "Mala": "MAL",
+  "malachi": "MAL",
+  "MALACHI": "MAL",
+  "Matthew": "MAT",
+  "MAT": "MAT",
+  "matt": "MAT",
+  "mat": "MAT",
+  "mt": "MAT",
+  "Mat": "MAT",
+  "Matt": "MAT",
+  "matthew": "MAT",
+  "MATTHEW": "MAT",
+  "Mark": "MRK",
+  "MRK": "MRK",
+  "mrk": "MRK",
+  "mar": "MRK",
+  "mk": "MRK",
+  "mr": "MRK",
+  "Mar": "MRK",
+  "mark": "MRK",
+  "MARK": "MRK",
+  "Luke": "LUK",
+  "LUK": "LUK",
+  "luk": "LUK",
+  "lk": "LUK",
+  "lu": "LUK",
+  "Luk": "LUK",
+  "luke": "LUK",
+  "LUKE": "LUK",
+  "John": "JHN",
+  "JHN": "JHN",
+  "joh": "JHN",
+  "jhn": "JHN",
+  "jn": "JHN",
+  "Joh": "JHN",
+  "john": "JHN",
+  "JOHN": "JHN",
+  "Acts": "ACT",
+  "ACT": "ACT",
+  "act": "ACT",
+  "ac": "ACT",
+  "Act": "ACT",
+  "acts": "ACT",
+  "ACTS": "ACT",
+  "Romans": "ROM",
+  "ROM": "ROM",
+  "rom": "ROM",
+  "ro": "ROM",
+  "rm": "ROM",
+  "Rom": "ROM",
+  "Roma": "ROM",
+  "romans": "ROM",
+  "ROMANS": "ROM",
+  "1 Corinthians": "1CO",
+  "1CO": "1CO",
+  "1cor": "1CO",
+  "1co": "1CO",
+  "1 Co": "1CO",
+  "1 corinthians": "1CO",
+  "1 CORINTHIANS": "1CO",
+  "2 Corinthians": "2CO",
+  "2CO": "2CO",
+  "2cor": "2CO",
+  "2co": "2CO",
+  "2 Co": "2CO",
+  "2 corinthians": "2CO",
+  "2 CORINTHIANS": "2CO",
+  "Galatians": "GAL",
+  "GAL": "GAL",
+  "gal": "GAL",
+  "ga": "GAL",
+  "Gal": "GAL",
+  "Gala": "GAL",
+  "galatians": "GAL",
+  "GALATIANS": "GAL",
+  "Ephesians": "EPH",
+  "EPH": "EPH",
+  "eph": "EPH",
+  "ephes": "EPH",
+  "Eph": "EPH",
+  "Ephe": "EPH",
+  "ephesians": "EPH",
+  "EPHESIANS": "EPH",
+  "Philippians": "PHP",
+  "PHP": "PHP",
+  "phil": "PHP",
+  "php": "PHP",
+  "pp": "PHP",
+  "Phi": "PHP",
+  "Phil": "PHP",
+  "philippians": "PHP",
+  "PHILIPPIANS": "PHP",
+  "Colossians": "COL",
+  "COL": "COL",
+  "col": "COL",
+  "Col": "COL",
+  "Colo": "COL",
+  "colossians": "COL",
+  "COLOSSIANS": "COL",
+  "1 Thessalonians": "1TH",
+  "1TH": "1TH",
+  "1thess": "1TH",
+  "1thes": "1TH",
+  "1th": "1TH",
+  "1 T": "1TH",
+  "1 Th": "1TH",
+  "1 thessalonians": "1TH",
+  "1 THESSALONIANS": "1TH",
+  "2 Thessalonians": "2TH",
+  "2TH": "2TH",
+  "2thess": "2TH",
+  "2thes": "2TH",
+  "2th": "2TH",
+  "2 T": "2TH",
+  "2 Th": "2TH",
+  "2 thessalonians": "2TH",
+  "2 THESSALONIANS": "2TH",
+  "1 Timothy": "1TI",
+  "1TI": "1TI",
+  "1tim": "1TI",
+  "1ti": "1TI",
+  "1tm": "1TI",
+  "1 Ti": "1TI",
+  "1 timothy": "1TI",
+  "1 TIMOTHY": "1TI",
+  "2 Timothy": "2TI",
+  "2TI": "2TI",
+  "2tim": "2TI",
+  "2ti": "2TI",
+  "2tm": "2TI",
+  "2 Ti": "2TI",
+  "2 timothy": "2TI",
+  "2 TIMOTHY": "2TI",
+  "Titus": "TIT",
+  "TIT": "TIT",
+  "tit": "TIT",
+  "ti": "TIT",
+  "Tit": "TIT",
+  "Titu": "TIT",
+  "titus": "TIT",
+  "TITUS": "TIT",
+  "Philemon": "PHM",
+  "PHM": "PHM",
+  "philem": "PHM",
+  "phm": "PHM",
+  "phlm": "PHM",
+  "phile": "PHM",
+  "philemon": "PHM",
+  "PHILEMON": "PHM",
+  "Hebrews": "HEB",
+  "HEB": "HEB",
+  "heb": "HEB",
+  "Heb": "HEB",
+  "Hebr": "HEB",
+  "hebrews": "HEB",
+  "HEBREWS": "HEB",
+  "James": "JAS",
+  "JAS": "JAS",
+  "jas": "JAS",
+  "jm": "JAS",
+  "jam": "JAS",
+  "Jam": "JAS",
+  "Jame": "JAS",
+  "james": "JAS",
+  "JAMES": "JAS",
+  "1 Peter": "1PE",
+  "1PE": "1PE",
+  "1pet": "1PE",
+  "1pe": "1PE",
+  "1pt": "1PE",
+  "1p": "1PE",
+  "1 P": "1PE",
+  "1 Pe": "1PE",
+  "1 peter": "1PE",
+  "1 PETER": "1PE",
+  "2 Peter": "2PE",
+  "2PE": "2PE",
+  "2pet": "2PE",
+  "2pe": "2PE",
+  "2pt": "2PE",
+  "2p": "2PE",
+  "2 P": "2PE",
+  "2 Pe": "2PE",
+  "2 peter": "2PE",
+  "2 PETER": "2PE",
+  "1 John": "1JN",
+  "1JN": "1JN",
+  "1jn": "1JN",
+  "1jo": "1JN",
+  "1joh": "1JN",
+  "1jhn": "1JN",
+  "1j": "1JN",
+  "1 J": "1JN",
+  "1 Jo": "1JN",
+  "1 john": "1JN",
+  "1 JOHN": "1JN",
+  "2 John": "2JN",
+  "2JN": "2JN",
+  "2jn": "2JN",
+  "2jo": "2JN",
+  "2joh": "2JN",
+  "2jhn": "2JN",
+  "2j": "2JN",
+  "2 J": "2JN",
+  "2 Jo": "2JN",
+  "2 john": "2JN",
+  "2 JOHN": "2JN",
+  "3 John": "3JN",
+  "3JN": "3JN",
+  "3jn": "3JN",
+  "3jo": "3JN",
+  "3joh": "3JN",
+  "3jhn": "3JN",
+  "3j": "3JN",
+  "3 J": "3JN",
+  "3 Jo": "3JN",
+  "3 john": "3JN",
+  "3 JOHN": "3JN",
+  "Jude": "JUD",
+  "JUD": "JUD",
+  "jud": "JUD",
+  "jd": "JUD",
+  "jude": "JUD",
+  "JUDE": "JUD",
+  "Revelation": "REV",
+  "REV": "REV",
+  "rev": "REV",
+  "re": "REV",
+  "rv": "REV",
+  "revelations": "REV",
+  "apocalypse": "REV",
+  "Rev": "REV",
+  "Reve": "REV",
+  "revelation": "REV",
+  "REVELATION": "REV"
+ }
+}
