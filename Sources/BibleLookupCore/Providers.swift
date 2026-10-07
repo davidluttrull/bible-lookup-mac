@@ -139,7 +139,13 @@ public struct ESV: Provider {
     ]
 
     public func fetch(_ ref: Ref) async throws -> Fetched {
-        let url = "https://api.esv.org/v3/passage/html/?" + query([("q", ref.query())] + Self.params)
+        var q = ref.query()
+        if ref.isChapter && ref.book.chapters == 1 {
+            // the ESV API reads "Jude 1" as Jude 1:1 in one-chapter books; ask for every
+            // verse (one past the KJV count, for 3 John 1:15; the API stops at the last)
+            q = "\(ref.book.name) 1:1-\(ref.book.verseCounts[0] + 1)"
+        }
+        let url = "https://api.esv.org/v3/passage/html/?" + query([("q", q)] + Self.params)
         let body = try await httpGet(url, headers: ["Authorization": "Token \(key)"])
         let json = (try? JSONSerialization.jsonObject(with: Data(body.utf8))) as? [String: Any]
         let passages = json?["passages"] as? [String] ?? []

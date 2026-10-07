@@ -18,8 +18,11 @@ to Bible Gateway.
 ## Features
 
 - A super simple interface.
-- Fast passage lookup, including several passages at once
-  (`John 3:16; John 8:3`).
+- Fast passage lookup, including several passages at once, separated by
+  semicolons or commas (`John 3:16; John 8:3`, or `Heb 10:11-14, 18` for
+  Hebrews 10:11-14 and 10:18).
+- Passages you've looked up are saved on your Mac, so looking them up again is
+  instant and uses less of your free API allowance.
 - **Read full chapter** for any single verse, with your verse highlighted. This
   was a favorite Bible Gateway feature of mine.
 - **Open in Logos** links, for when you want to dig into a passage in Logos Bible
@@ -66,7 +69,9 @@ who installs it uses their own.
 ## Using it
 
 - **⌘S** jumps to the search box (so does `/`).
-- **←** and **→** go to the previous and next chapter.
+- **←** and **→** go to the previous and next chapter, from a chapter or from a
+  single verse. Chapter pages also have previous and next buttons above and below
+  the text.
 - **⌘+**, **⌘−** and **⌘0** change the text size.
 - **⌘P** prints the passage without the header and links.
 - **⌘N** opens another window.
@@ -104,6 +109,7 @@ The bundle ID is `org.indianachristianacademy.BibleLookup`; change it with
   - `Providers.swift`: fetching from ESV, NLT, NET and API.Bible, plus the
     bundled KJV and ASV
   - `Service.swift`: the `/api/config`, `/api/parse` and `/api/passage` answers
+  - `PassageCache.swift`: passages kept on disk (SQLite), within the ESV's limits
 - `Sources/BibleLookup/`: the Mac app (window, menus, Settings, keychain).
 - `Resources/Web/`: the page. `Resources/Data/`: the bundled KJV and ASV.
 - `Packaging/`: Info.plist, the sandbox entitlements, and the icon artwork.
@@ -113,6 +119,9 @@ The bundle ID is `org.indianachristianacademy.BibleLookup`; change it with
 
 ## Privacy
 
-The app sends each lookup only to that translation's own site. API.Bible asks
+The app sends each lookup only to that translation's own site. Passages it has
+fetched are kept in the app's own folder on your Mac, so it doesn't have to ask
+again. For the ESV it keeps no more than the ESV's terms allow (500 verses, and
+never more than half of any book). API.Bible asks
 apps to report which passages are shown (its Fair Use Management System). The
 app does this with a random device ID and no personal information.

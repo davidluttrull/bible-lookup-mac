@@ -11,3 +11,4 @@ python-reference/config.json
 # them) stay on the machine that recorded them: python3 python-reference/tools/make_fixtures.py
 Tests/BibleLookupCoreTests/Fixtures/sources/
 Tests/BibleLookupCoreTests/Fixtures/parsers.json
+python-reference/cache.db

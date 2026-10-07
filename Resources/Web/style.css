@@ -242,6 +242,7 @@ body.home .go { width: 46px; height: 46px; }
 .links { display: flex; flex-direction: column; gap: 4px; margin: 18px 0 0; font-size: 16px; }
 
 .chapnav { display: flex; justify-content: space-between; margin-top: 28px; gap: 12px; }
+.chapnav.top { margin: -6px 0 24px; }
 .chapnav a {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--text);

@@ -1,9 +1,11 @@
 # Bible Lookup
 
-A small Bible passage lookup site that runs on this Mac.
+A small Bible passage lookup site you run on your own computer or home server.
+There is also a [Mac app version](https://github.com/davidluttrull/bible-lookup-mac).
 
 ```
-cd ~/bible-lookup
+git clone https://github.com/davidluttrull/bible-lookup-web.git
+cd bible-lookup-web
 python3 server.py
 ```
 
@@ -11,9 +13,13 @@ Then open <http://localhost:8321>. Type a reference (`John 3:16`, `jn 3:16-18`,
 `Ps 23`, `1 Cor 13`, `Jude 5`), pick a translation, and press Enter. Press `/`
 to jump to the search box from anywhere.
 
+Use the ← and → arrow keys to go to the previous or next chapter. Chapter pages
+also have previous and next buttons above and below the text.
+
 Separate several passages with semicolons: `James 1:5; John 3:16-18`. A part
 without a book name continues the previous book, so `John 3:16; 4:2` shows
-John 3:16 and John 4:2.
+John 3:16 and John 4:2. After a comma, a bare number continues the same chapter,
+as in print: `Heb 10:11-14, 18` shows Hebrews 10:11-14 and 10:18.
 
 It needs only Python 3; there are no packages to install. Run this way, the
 server listens on `localhost` only, so nothing is exposed to the network. Your
@@ -21,11 +27,13 @@ API keys never leave the server either way.
 
 ## Running it in Docker
 
-The bundle includes a `Dockerfile` and `docker-compose.yml`. On the server:
+The repository includes a `Dockerfile` and `docker-compose.yml`. On the server:
 
 ```
-tar xzf bible-lookup-docker.tar.gz
-cd bible-lookup
+git clone https://github.com/davidluttrull/bible-lookup-web.git
+cd bible-lookup-web
+mkdir -p config
+cp config.example.json config/config.json   # then add your keys
 docker compose up -d --build
 ```
 
@@ -45,7 +53,7 @@ under `ports:` in `docker-compose.yml`.
   docker compose exec bible-lookup python server.py --setup
   docker compose restart
   ```
-- **Updating:** copy the new files over and run `docker compose up -d --build`.
+- **Updating:** run `git pull`, then `docker compose up -d --build`.
 - **Who can use it:** anyone who can reach the server can look up passages, and
   their lookups count against your ESV and API.Bible limits. Keep it on your home
   network, or put it behind a login before exposing it to the internet.
@@ -63,8 +71,8 @@ opens it in your licensed Logos copy.
 | KJV, ASV | Bundled in `data/kjv.json` and `data/asv.json` (public domain, from eBible.org) | none; works offline |
 | NET | labs.bible.org | none |
 | NLT | api.nlt.to | works now on the shared `TEST` key; get your own free key for regular use |
-| ESV | api.esv.org | free key (connected) |
-| NIV, CSB, NASB | API.Bible | free Starter plan, 3 copyrighted Bibles of your choice (NIV and CSB connected) |
+| ESV | api.esv.org | free key |
+| NIV, CSB, NASB | API.Bible | free Starter plan, 3 copyrighted Bibles of your choice |
 
 Translations without a source still appear in the picker. They show links to
 Logos and BibleGateway in place of the text.
@@ -100,6 +108,22 @@ API.Bible asks apps to report which passages are shown (its Fair Use Management
 System). The server does this in the background for each API.Bible passage,
 using a random device ID in `config.json` and no personal information.
 
+## Caching
+
+Passages from the online translations are cached in `cache.db` (SQLite), next to
+`config.json` (in Docker: `config/cache.db`), so repeat lookups don't call the APIs
+again and the cache survives restarts.
+
+- **ESV:** follows the ESV API's storage limit: at most 500 verses, and never more
+  than half of any one book. The least recently used passages are dropped first;
+  a passage too long to store (a whole short book like Jude) is always fetched live.
+- **NIV, CSB, NASB, NLT, NET:** no size limit, since these publish no caching rule.
+- Passages are kept forever (outside the ESV's limit). To refresh them
+  periodically, set `"cache_days"` in `config.json` (e.g. `30`).
+- API.Bible view reports are still sent for cached passages.
+- Delete `cache.db` to clear the cache. KJV and ASV are bundled, so they're never
+  cached.
+
 ## Testing a translation
 
 ```
@@ -112,9 +136,12 @@ for each. Run it after adding or changing a key.
 
 ## Files
 
+- `config.example.json`: blank settings. `python3 server.py` creates `config.json`
+  from these defaults on its first run; your keys go there, and git ignores it.
 - `server.py`: web server and API (`/api/config`, `/api/passage?q=…&t=…`)
 - `providers.py`: one class per text source
 - `bibleref.py`: book names, abbreviations, and reference parsing
+- `passage_cache.py`: the on-disk passage cache and its storage limits
 - `static/`: the web page (HTML, CSS, JS)
 - `tools/build_usfm.py`: rebuilds the bundled Bibles from eBible's USFM files
   (`python3 tools/build_usfm.py data/raw/asv_usfm data/asv.json --red-letters-from data/kjv.json`)

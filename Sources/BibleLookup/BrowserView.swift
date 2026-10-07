@@ -54,10 +54,9 @@ final class WebController: NSObject, ObservableObject {
         webView.evaluateJavaScript("(() => { const q = document.getElementById('q'); q.focus(); q.select(); })()")
     }
 
-    /// Follow the page's ← / → chapter link, if it has one.
+    /// The previous or next chapter (app.js goChapter, which ← and → use too).
     func chapter(next: Bool) {
-        let arrow = next ? "→" : "←"
-        webView.evaluateJavaScript("[...document.querySelectorAll('.chapnav a')].find((a) => a.textContent.includes('\(arrow)'))?.click()")
+        webView.evaluateJavaScript("typeof goChapter === 'function' && goChapter(\(next))")
     }
 
     func zoom(_ step: Double?) {
