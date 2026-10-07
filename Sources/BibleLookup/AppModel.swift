@@ -18,9 +18,12 @@ final class AppModel: @unchecked Sendable {
         let config = SettingsStore.loadConfig()
         service = Task.detached(priority: .userInitiated) {
             let data = Bundle.main.resourceURL!.appendingPathComponent("Data")
+            // passages fetched online, kept between launches (in the app's own sandbox folder)
+            let support = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
             return try BibleService(kjv: Data(contentsOf: data.appendingPathComponent("kjv.json")),
                                     asv: Data(contentsOf: data.appendingPathComponent("asv.json")),
-                                    config: config)
+                                    config: config,
+                                    cachePath: support?.appendingPathComponent("Bible Lookup/cache.db"))
         }
     }
 

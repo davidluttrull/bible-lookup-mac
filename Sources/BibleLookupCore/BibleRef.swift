@@ -197,7 +197,8 @@ public final class Bible: @unchecked Sendable {
     }
 
     public func parse(_ input: String?) throws -> Ref {
-        let q = (input ?? "").stripped
+        // stray separators at either end are ignored, e.g. "Isa. 53:6," (Python: strip(" \t\r\n,;"))
+        let q = (input ?? "").trimmingCharacters(in: Self.edgeJunk)
         if q.isEmpty {
             throw RefError("Type a reference, like John 3:16.")
         }
@@ -234,32 +235,41 @@ public final class Bible: @unchecked Sendable {
         return try make(book, c1, v1, x, y)
     }
 
+    static let edgeJunk = CharacterSet(charactersIn: " \t\r\n,;")
+
     /// Parse "James 1:5; John 3:16-18" into [(text, Ref or RefError)].
     ///
     /// A part with no book name continues the previous book, so
-    /// "John 3:16; 4:2" means John 3:16 and John 4:2.
+    /// "John 3:16; 4:2" means John 3:16 and John 4:2. After a comma, a bare number
+    /// continues the previous chapter, as in print: "Heb 10:11-14, 18" means
+    /// Hebrews 10:11-14 and 10:18 (but "Ps 23, 24" is two whole psalms).
     public func split(_ q: String?, limit: Int = 12) -> [(String, Result<Ref, RefError>)] {
         var out: [(String, Result<Ref, RefError>)] = []
         var prev: Ref? = nil
-        let parts = (q ?? "").components(separatedBy: ";").map(\.stripped).filter { !$0.isEmpty }.prefix(limit)
-        for part in parts {
-            let ref: Ref
-            do {
-                ref = try parse(part)
-            } catch let e as RefError {
-                guard let p = prev, part.first?.wholeNumberValue != nil else {  // Python: part[0].isdigit()
-                    out.append((part, .failure(e)))
-                    continue
-                }
+        for group in (q ?? "").components(separatedBy: ";") {
+            for (i, part) in group.components(separatedBy: ",").map(\.stripped).enumerated() {
+                if part.isEmpty { continue }
+                if out.count == limit { return out }
+                let ref: Ref
                 do {
-                    ref = try parse("\(p.book.name) \(part)")
-                } catch let e2 as RefError {
-                    out.append((part, .failure(e2)))
-                    continue
+                    ref = try parse(part)
+                } catch let e as RefError {
+                    guard let p = prev, part.first?.wholeNumberValue != nil else {  // Python: part[0].isdigit()
+                        out.append((part, .failure(e)))
+                        continue
+                    }
+                    // after a comma, "18" (no ":" or ".") is a verse in the previous chapter
+                    let sameChapter = i > 0 && p.v1 != nil && !part.contains(":") && !part.contains(".")
+                    do {
+                        ref = try parse(sameChapter ? "\(p.book.name) \(p.c2):\(part)" : "\(p.book.name) \(part)")
+                    } catch let e2 as RefError {
+                        out.append((part, .failure(e2)))
+                        continue
+                    } catch { continue }
                 } catch { continue }
-            } catch { continue }
-            out.append((part, .success(ref)))
-            prev = ref
+                out.append((part, .success(ref)))
+                prev = ref
+            }
         }
         return out
     }

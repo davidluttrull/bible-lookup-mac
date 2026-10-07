@@ -57,26 +57,25 @@ public final class BibleService: @unchecked Sendable {
     private let lock = NSLock()
     private var providers: [String: Provider] = [:]
     private var config = Config()
-    private var cache: [CacheKey: (result: [String: Any], fums: [String])] = [:]
-    private var cacheOrder: [CacheKey] = []
+    /// Passages from the online translations; on disk in the app, in memory in tests.
+    private let cache: PassageCache
     private let fumsSession = UUID().uuidString.replacingOccurrences(of: "-", with: "").lowercased()
 
-    private struct CacheKey: Hashable {
-        let tid: String
-        let ref: Ref
-    }
-
-    /// kjv/asv: the bundled public-domain JSON files.
-    public init(kjv: Data, asv: Data, config: Config) throws {
+    /// kjv/asv: the bundled public-domain JSON files. cachePath: where to keep passages
+    /// fetched online (nil keeps them in memory only).
+    public init(kjv: Data, asv: Data, config: Config, cachePath: URL? = nil, cacheDays: Int = 0) throws {
+        cache = PassageCache(path: cachePath, maxAgeDays: cacheDays)
         let k = try LocalBible(json: kjv, copyright: "King James Version. Public domain.")
         let a = try LocalBible(json: asv, copyright: "American Standard Version (1901). Public domain.")
         bundled = ["KJV": k, "ASV": a]
         // KJV verse counts are the reference for parsing and validation
         bible = Bible(verseCounts: k.verseCounts)
+        self.config = config  // the starting point, so update() doesn't see every edition as changed
         update(config)
     }
 
-    /// New keys or translation IDs: rebuild the online providers and forget cached passages.
+    /// New keys or translation IDs: rebuild the online providers. Cached passages stay,
+    /// except a translation's whose API.Bible edition changed (say NASB 1995 -> 2020).
     public func update(_ cfg: Config) {
         var p: [String: Provider] = [:]
         for t in translations {
@@ -88,12 +87,13 @@ public final class BibleService: @unchecked Sendable {
             default: p[t.id] = APIBible(key: cfg.apiBibleKey, bibleId: cfg.apiBible[t.id]?.id ?? "")
             }
         }
-        locked {
+        let changed = locked { () -> [String] in
+            let before = config.apiBible
             providers = p
             config = cfg
-            cache = [:]
-            cacheOrder = []
+            return translations.map(\.id).filter { before[$0]?.id != cfg.apiBible[$0]?.id }
         }
+        for tid in changed { cache.clear(tid) }
     }
 
     private func locked<T>(_ body: () -> T) -> T {
@@ -175,15 +175,9 @@ public final class BibleService: @unchecked Sendable {
             base["settings"] = true  // the page offers an "Open Settings" button
             return (200, base)
         }
-        let key = CacheKey(tid: t.id, ref: ref)
-        let hit: (result: [String: Any], fums: [String])? = locked {
-            guard let hit = cache[key] else { return nil }
-            cacheOrder.removeAll { $0 == key }
-            cacheOrder.append(key)
-            return hit
-        }
-        if let hit = hit {
-            reportViews(hit.fums)
+        let local = bundled[t.id] != nil  // read from the app already; no need to cache
+        if !local, let hit = cache.get(t.id, ref) {
+            reportViews(hit.fums)  // API.Bible counts every view, cached or not
             return (200, hit.result)
         }
         let fetched: Fetched
@@ -198,11 +192,7 @@ public final class BibleService: @unchecked Sendable {
         result["verses"] = fetched.verses.map(\.json)
         result["copyright"] = fetched.copyright
         result["source"] = p.source
-        locked {
-            if cache[key] == nil { cacheOrder.append(key) }
-            cache[key] = (result, fetched.fums)
-            while cacheOrder.count > 500 { cache.removeValue(forKey: cacheOrder.removeFirst()) }
-        }
+        if !local { cache.put(t.id, ref, result, fetched.fums) }
         reportViews(fetched.fums)
         return (200, result)
     }

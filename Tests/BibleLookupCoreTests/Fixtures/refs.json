@@ -4013,11 +4013,11 @@
   },
   {
    "input": "Hezekiah 1; Ps 23;;",
-   "error": "Couldn’t find a book called “Hezekiah 1; Ps 23;;”."
+   "error": "Couldn’t find a book called “Hezekiah 1; Ps”."
   },
   {
    "input": " ; ",
-   "error": "Couldn’t understand “;”. Try something like John 3:16."
+   "error": "Type a reference, like John 3:16."
   },
   {
    "input": "Ps 23; 24; 25:1-3",
@@ -4038,6 +4038,104 @@
   {
    "input": "a;b;c",
    "error": "Couldn’t find a book called “a;b;c”."
+  },
+  {
+   "input": "Hebrews 9:23-28; 10:11-14, 18; Hebrews 7:27",
+   "error": "Couldn’t find a book called “Hebrews 9:23-28; 10:11-14, 18; Hebrews”."
+  },
+  {
+   "input": "John 3:16, 18-20",
+   "error": "Couldn’t find a book called “John 3:16,”."
+  },
+  {
+   "input": "John 3:16, 4:2",
+   "error": "Couldn’t find a book called “John 3:16,”."
+  },
+  {
+   "input": "John 3:36-4:2, 5",
+   "error": "Couldn’t find a book called “John 3:36-4:2,”."
+  },
+  {
+   "input": "Ps 23, 24",
+   "error": "Couldn’t find a book called “Ps 23,”."
+  },
+  {
+   "input": "Jude 3, 5",
+   "error": "Couldn’t find a book called “Jude 3,”."
+  },
+  {
+   "input": "John 3:16, Rom 5:8, 6:23",
+   "error": "Couldn’t find a book called “John 3:16, Rom 5:8,”."
+  },
+  {
+   "input": "John 3:16,, 17 ,",
+   "error": "Couldn’t find a book called “John 3:16,,”."
+  },
+  {
+   "input": "Isa. 53:6,",
+   "query": "Isaiah 53:6",
+   "logos": "Is53.6",
+   "isChapter": false,
+   "payload": {
+    "book": "ISA",
+    "bookName": "Isaiah",
+    "c1": 53,
+    "v1": 6,
+    "c2": 53,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Isaiah 53:6",
+    "display": "Isaiah 53:6",
+    "chapterQuery": "Isaiah 53",
+    "prev": "Isaiah 52",
+    "next": "Isaiah 54"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Is53.6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A6&version=NASB1995"
+   },
+   "c1": 53,
+   "v1": 6,
+   "c2": 53,
+   "v2": 6,
+   "book": "ISA"
+  },
+  {
+   "input": " ;Isa 53:6 ; ",
+   "query": "Isaiah 53:6",
+   "logos": "Is53.6",
+   "isChapter": false,
+   "payload": {
+    "book": "ISA",
+    "bookName": "Isaiah",
+    "c1": 53,
+    "v1": 6,
+    "c2": 53,
+    "v2": 6,
+    "isChapter": false,
+    "query": "Isaiah 53:6",
+    "display": "Isaiah 53:6",
+    "chapterQuery": "Isaiah 53",
+    "prev": "Isaiah 52",
+    "next": "Isaiah 54"
+   },
+   "links": {
+    "logos": "logosres:nasb95;ref=Bible.Is53.6",
+    "bibleGateway": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A6&version=NASB1995"
+   },
+   "c1": 53,
+   "v1": 6,
+   "c2": 53,
+   "v2": 6,
+   "book": "ISA"
+  },
+  {
+   "input": "John 3:16, 99",
+   "error": "Couldn’t find a book called “John 3:16,”."
+  },
+  {
+   "input": "John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16",
+   "error": "Couldn’t find a book called “John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John”."
   },
   {
    "input": "Gen 1;Gen 2;Gen 3;Gen 4;Gen 5;Gen 6;Gen 7;Gen 8;Gen 9;Gen 10;Gen 11;Gen 12;Gen 13;Gen 14;Gen 15",
@@ -4205,6 +4303,206 @@
     {
      "input": "c",
      "query": "Colossians 1"
+    }
+   ]
+  },
+  {
+   "input": "Hebrews 9:23-28; 10:11-14, 18; Hebrews 7:27",
+   "parts": [
+    {
+     "input": "Hebrews 9:23-28",
+     "query": "Hebrews 9:23-28"
+    },
+    {
+     "input": "10:11-14",
+     "query": "Hebrews 10:11-14"
+    },
+    {
+     "input": "18",
+     "query": "Hebrews 10:18"
+    },
+    {
+     "input": "Hebrews 7:27",
+     "query": "Hebrews 7:27"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16, 18-20",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "18-20",
+     "query": "John 3:18-20"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16, 4:2",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "4:2",
+     "query": "John 4:2"
+    }
+   ]
+  },
+  {
+   "input": "John 3:36-4:2, 5",
+   "parts": [
+    {
+     "input": "John 3:36-4:2",
+     "query": "John 3:36-4:2"
+    },
+    {
+     "input": "5",
+     "query": "John 4:5"
+    }
+   ]
+  },
+  {
+   "input": "Ps 23, 24",
+   "parts": [
+    {
+     "input": "Ps 23",
+     "query": "Psalm 23"
+    },
+    {
+     "input": "24",
+     "query": "Psalm 24"
+    }
+   ]
+  },
+  {
+   "input": "Jude 3, 5",
+   "parts": [
+    {
+     "input": "Jude 3",
+     "query": "Jude 1:3"
+    },
+    {
+     "input": "5",
+     "query": "Jude 1:5"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16, Rom 5:8, 6:23",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "Rom 5:8",
+     "query": "Romans 5:8"
+    },
+    {
+     "input": "6:23",
+     "query": "Romans 6:23"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16,, 17 ,",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "17",
+     "query": "John 3:17"
+    }
+   ]
+  },
+  {
+   "input": "Isa. 53:6,",
+   "parts": [
+    {
+     "input": "Isa. 53:6",
+     "query": "Isaiah 53:6"
+    }
+   ]
+  },
+  {
+   "input": " ;Isa 53:6 ; ",
+   "parts": [
+    {
+     "input": "Isa 53:6",
+     "query": "Isaiah 53:6"
+    }
+   ]
+  },
+  {
+   "input": "John 3:16, 99",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "99",
+     "error": "John 3 has only 36 verses."
+    }
+   ]
+  },
+  {
+   "input": "John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16, John 3:16",
+   "parts": [
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
+    },
+    {
+     "input": "John 3:16",
+     "query": "John 3:16"
     }
    ]
   },

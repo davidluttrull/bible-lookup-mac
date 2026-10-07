@@ -98,7 +98,7 @@ def main():
             psalms = b.id == "PSA"
 
             def usx_parse(raw, psalms=psalms):
-                p = P._USXParser(psalms)
+                p = P._USXParser(ms_is_heading=not psalms)  # "ms" blocks are headings outside the Psalms
                 p.feed(raw)
                 p.close()
                 return p.result()
@@ -170,6 +170,10 @@ REF_INPUTS = [
     "Isaiah 9:6-7; John 1:14", "James 1:5; John 3:16-18", "John 3:16; 4:2", "John 3:16; 17",
     "John 3:16; 1 John 1:9; 2:1", "Hezekiah 1; Ps 23;;", " ; ", "Ps 23; 24; 25:1-3", "Jude 5; 7",
     "Jn 3:16; 3:17-4:1; x", "1 Cor 13; 2 Cor 5:17", "a;b;c",
+    # commas: after one, a bare number continues the same chapter ("Heb 10:11-14, 18")
+    "Hebrews 9:23-28; 10:11-14, 18; Hebrews 7:27", "John 3:16, 18-20", "John 3:16, 4:2",
+    "John 3:36-4:2, 5", "Ps 23, 24", "Jude 3, 5", "John 3:16, Rom 5:8, 6:23", "John 3:16,, 17 ,",
+    "Isa. 53:6,", " ;Isa 53:6 ; ", "John 3:16, 99", ", ".join(["John 3:16"] * 20),
     ";".join(f"Gen {i}" for i in range(1, 16)),
 ]
 
@@ -188,7 +192,7 @@ def write_refs(app):
                      "c1": r.c1, "v1": r.v1, "c2": r.c2, "v2": r.v2, "book": r.book.id})
     splits = []
     for s in REF_INPUTS:
-        if ";" not in s:
+        if ";" not in s and "," not in s:
             continue
         parts = []
         for text, r in app.bible.split(s):

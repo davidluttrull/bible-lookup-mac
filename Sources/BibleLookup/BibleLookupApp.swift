@@ -101,7 +101,7 @@ private struct AppCommands: Commands {
             Button("Back") { page?.goBack() }
             Button("Forward") { page?.goForward() }
             Divider()
-            // plain ← and → also do these (app.js), except while typing in the search box
+            // plain ← and → do these too (app.js goChapter), except while typing in the search box
             Button("Previous Chapter  ←") { page?.chapter(next: false) }
             Button("Next Chapter  →") { page?.chapter(next: true) }
         }
